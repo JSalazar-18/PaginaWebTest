@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaWebTest</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>🌐 PaginaWebTest</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a PaginaWebTest</h2>
+            <p>Este es un proyecto de prueba que demuestra la implementación de la <strong>Metodología del Proyecto Profesional v3.0.0</strong>.</p>
+            <p>La estructura, documentación y código están alineados con las mejores prácticas.</p>
+            <button id="btnSaludo">Haz clic para un saludo</button>
+            <p id="mensajeSaludo"></p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre el Proyecto</h2>
+            <p>PaginaWebTest es un sitio web de ejemplo creado para demostrar cómo se organiza y desarrolla un proyecto siguiendo la metodología.</p>
+            <ul>
+                <li>✅ Estructura organizada por responsabilidades</li>
+                <li>✅ Documentación sincronizada con el desarrollo</li>
+                <li>✅ Control de versiones con Git y GitHub</li>
+                <li>✅ 6 chats especializados en ChatGPT Projects</li>
+            </ul>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio">
+                    <h3>Desarrollo Web</h3>
+                    <p>Creación de sitios y aplicaciones web modernas.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Metodología</h3>
+                    <p>Implementación de procesos profesionales.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Documentación</h3>
+                    <p>Generación de documentación técnica y funcional.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formularioContacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensajeFormulario"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 PaginaWebTest - Todos los derechos reservados</p>
+        <p>Versión 0.1.0 - En desarrollo</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
