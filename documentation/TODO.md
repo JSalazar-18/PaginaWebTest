@@ -2,16 +2,16 @@
 
 **Proyecto:** PaginaWebTest  
 **Documento:** TODO.md  
-**Versión:** 0.1.0  
+**Versión:** 0.1.2  
 **Estado del Documento:** Vigente  
 **Responsable:** Chat 00 – Gestión del Proyecto  
-**Última actualización:** 05-08-2026
+**Última actualización:** 07-08-2026
 
 ---
 
 # 1. Objetivo
 
-Mantener el registro oficial de todas las tareas del proyecto, permitiendo planificar, priorizar, asignar, controlar y dar seguimiento a las actividades necesarias para completar el ciclo de vida del proyecto.
+Mantener el registro oficial de todas las tareas del proyecto, permitiendo planificar, priorizar, asignar y controlar las actividades necesarias para completar el ciclo de vida del proyecto.
 
 Este documento constituye el **Backlog Oficial** del proyecto.
 
@@ -42,107 +42,90 @@ Este documento constituye el **Backlog Oficial** del proyecto.
 
 # 4. Backlog General
 
-| ID | Tarea | Prioridad | Iteración | Responsable | Dependencia | Estado |
-|----|--------|-----------|------------|--------------|--------------|--------|
-| TSK-001 | Aprobar REQUIREMENTS.md | P0 | I1 | Chat 00 | — | En revisión |
-| TSK-002 | Aprobar ROADMAP.md | P0 | I1 | Chat 00 | TSK-001 | En revisión |
-| TSK-003 | Aprobar ITERATIONS.md | P0 | I1 | Chat 00 | TSK-002 | En revisión |
-| TSK-004 | Aprobar RISKS.md | P0 | I1 | Chat 00 | TSK-003 | En revisión |
-| TSK-005 | Aprobar PROJECT_STATUS.md | P0 | I1 | Chat 00 | TSK-004 | En revisión |
-| TSK-006 | Aprobar TODO.md | P0 | I1 | Chat 00 | TSK-005 | En progreso |
-| TSK-007 | Autorizar Arquitectura | P0 | I1 | Chat 00 | TSK-006 | Pendiente |
-| TSK-008 | Elaborar ARCHITECTURE.md | P0 | I1 | Chat 01 | TSK-007 | Pendiente |
-| TSK-009 | Registrar ADR iniciales | P1 | I1 | Chat 01 | TSK-008 | Pendiente |
-| TSK-010 | Implementar aplicación base | P0 | I1 | Chat 02 | TSK-009 | Pendiente |
-| TSK-011 | Ejecutar pruebas iniciales | P1 | I1 | Chat 03 | TSK-010 | Pendiente |
-| TSK-012 | Revisar documentación | P1 | I1 | Chat 04 | TSK-011 | Pendiente |
-| TSK-013 | Preparar versión 0.1.0 | P0 | I1 | Chat 05 | TSK-012 | Pendiente |
+| ID | Tarea | Prioridad | Iteración | Responsable | Estado |
+|----|--------|-----------|-----------|-------------|--------|
+| TSK-001 | Aprobar documentación de Gestión | P0 | I1 | Chat 00 | ✅ Completada |
+| TSK-002 | Elaborar Arquitectura | P0 | I1 | Chat 01 | ✅ Completada |
+| TSK-003 | Registrar ADR | P1 | I1 | Chat 01 | ✅ Completada |
+| TSK-004 | Implementar aplicación | P0 | I1 | Chat 02 | ✅ Completada |
+| TSK-005 | Elaborar TEST_PLAN.md | P0 | I1 | Chat 03 | ✅ Completada |
+| TSK-006 | Ejecutar pruebas funcionales | P0 | I1 | Chat 03 | ✅ Completada |
+| TSK-007 | Verificar requisitos no funcionales | P0 | I1 | Chat 03 | ✅ Completada |
+| TSK-008 | Ejecutar Lighthouse | P1 | I1 | Chat 03 | ✅ Completada |
+| TSK-009 | Aprobar Fase de Pruebas | P0 | I1 | Chat 00 | ✅ Completada |
+| TSK-010 | Revisar documentación técnica | P0 | I1 | Chat 04 | 🟡 Pendiente |
+| TSK-011 | Sincronizar documentación del proyecto | P0 | I1 | Chat 04 | 🟡 Pendiente |
+| TSK-012 | Validar documentación final | P0 | I1 | Chat 04 | 🟡 Pendiente |
+| TSK-013 | Aprobar Fase de Documentación | P0 | I1 | Chat 00 | 🟡 Pendiente |
+| TSK-014 | Actualizar VERSION.md | P0 | I1 | Chat 05 | 🟡 Pendiente |
+| TSK-015 | Actualizar CHANGELOG.md | P0 | I1 | Chat 05 | 🟡 Pendiente |
+| TSK-016 | Preparar Release 0.1.0 | P0 | I1 | Chat 05 | 🟡 Pendiente |
+| TSK-017 | Publicar versión 0.1.0 | P0 | I1 | Chat 05 | 🟡 Pendiente |
 
 ---
 
-# 5. Tareas por Documento
+# 5. Estado por Fase
 
 ## Gestión
 
-- REQUIREMENTS.md
-- ROADMAP.md
-- ITERATIONS.md
-- RISKS.md
-- PROJECT_STATUS.md
-- TODO.md
-
----
+- ✅ Completada
 
 ## Arquitectura
 
-- ARCHITECTURE.md
-- DECISIONS.md
-
----
+- ✅ Completada
 
 ## Desarrollo
 
-- index.html
-- style.css
-- main.js
-
----
+- ✅ Completada
 
 ## Pruebas
 
-- TEST_PLAN.md
+- ✅ Completada
+
+## Documentación
+
+- 🟡 Pendiente de inicio
+
+## Git y GitHub
+
+- ⏳ Pendiente
 
 ---
 
-## Versionado
-
-- VERSION.md
-- CHANGELOG.md
-
----
-
-# 6. Tareas por Iteración
+# 6. Estado por Iteración
 
 ## Iteración 1
 
-Objetivo:
+### Completado
 
-Construcción del MVP y consolidación metodológica.
+- Gestión.
+- Arquitectura.
+- Desarrollo.
+- Pruebas.
 
-Tareas principales:
+### Pendiente
 
-- Finalizar documentación.
-- Diseñar arquitectura.
-- Desarrollar MVP.
-- Ejecutar pruebas.
-- Publicar versión 0.1.0.
+- Documentación.
+- Versionado.
+- Publicación.
 
 ---
 
 ## Iteración 2
 
-Objetivos previstos:
-
-- Mejoras visuales.
-- Optimización del código.
-- Refactorización.
+Planificada.
 
 ---
 
 ## Iteración 3
 
-Objetivos previstos:
-
-- Nuevas funcionalidades.
-- Mejoras de experiencia de usuario.
+Planificada.
 
 ---
 
 ## Iteración 4
 
-Objetivos previstos:
-
-- Liberación de la versión estable.
+Planificada.
 
 ---
 
@@ -150,22 +133,23 @@ Objetivos previstos:
 
 | Documento | Relación |
 |------------|----------|
-| REQUIREMENTS.md | Define las tareas |
-| ROADMAP.md | Establece la planificación |
-| ITERATIONS.md | Organiza las tareas |
-| RISKS.md | Riesgos asociados |
-| PROJECT_STATUS.md | Estado del proyecto |
+| REQUIREMENTS.md | Base de requisitos |
+| ROADMAP.md | Plan estratégico |
+| ITERATIONS.md | Plan de iteraciones |
+| RISKS.md | Gestión de riesgos |
+| PROJECT_STATUS.md | Estado oficial |
 
 ---
 
 # 8. Indicadores
 
-| Indicador | Objetivo |
-|------------|----------|
-| Tareas críticas pendientes | 0 |
-| Tareas completadas | 100 % |
+| Indicador | Valor |
+|------------|------:|
+| Tareas registradas | 17 |
+| Tareas completadas | 9 |
+| Tareas pendientes | 8 |
+| Tareas críticas pendientes | 4 |
 | Tareas bloqueadas | 0 |
-| Dependencias resueltas | 100 % |
 
 ---
 
@@ -173,11 +157,13 @@ Objetivos previstos:
 
 Prioridad inmediata:
 
-1. Finalizar la documentación de Gestión.
-2. Aprobar la documentación.
-3. Autorizar el Chat 01.
-4. Elaborar la arquitectura.
-5. Continuar con el desarrollo.
+1. Revisar la documentación técnica.
+2. Sincronizar la documentación del proyecto.
+3. Aprobar la Fase de Documentación.
+4. Actualizar VERSION.md.
+5. Actualizar CHANGELOG.md.
+6. Preparar el Release 0.1.0.
+7. Publicar la versión 0.1.0.
 
 ---
 
@@ -186,9 +172,9 @@ Prioridad inmediata:
 | Campo | Valor |
 |--------|-------|
 | Estado | Vigente |
-| Responsable | Chat 00 |
-| Próxima revisión | Al cierre de cada iteración |
-| Versión | 0.1.0 |
+| Responsable | Chat 00 – Gestión del Proyecto |
+| Próxima revisión | Al finalizar la Fase de Documentación |
+| Versión | 0.1.2 |
 
 ---
 
@@ -196,4 +182,6 @@ Prioridad inmediata:
 
 | Versión | Fecha | Descripción |
 |----------|-------|-------------|
-| 0.1.0 | 05-08-2026 | Creación inicial del Backlog del proyecto alineado con la Metodología del Proyecto Profesional v3.0.0 |
+| 0.1.0 | 05-08-2026 | Creación inicial del backlog del proyecto. |
+| 0.1.1 | 07-08-2026 | Actualización tras la aprobación de Arquitectura y la finalización del Desarrollo. |
+| 0.1.2 | 07-08-2026 | Actualización tras la aprobación completa de la Fase de Pruebas. Se completan todas las tareas asociadas a Gestión, Arquitectura, Desarrollo y Pruebas. Se incorporan las actividades correspondientes a las fases de Documentación y Git/GitHub. |

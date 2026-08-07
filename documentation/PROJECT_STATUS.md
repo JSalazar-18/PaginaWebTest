@@ -2,10 +2,10 @@
 
 **Proyecto:** PaginaWebTest  
 **Documento:** PROJECT_STATUS.md  
-**Versión:** 0.1.0  
+**Versión:** 0.1.2  
 **Estado del Documento:** Vigente  
 **Responsable:** Chat 00 – Gestión del Proyecto  
-**Última actualización:** 05-08-2026
+**Última actualización:** 07-08-2026
 
 ---
 
@@ -13,7 +13,7 @@
 
 Mantener el estado oficial del proyecto, proporcionando una visión consolidada del avance metodológico, documental y técnico durante todo el ciclo de vida.
 
-Este documento constituye la referencia oficial para conocer la situación real del proyecto.
+Este documento constituye la referencia oficial para conocer la situación real del proyecto y autorizar el paso entre fases.
 
 ---
 
@@ -24,25 +24,29 @@ Este documento constituye la referencia oficial para conocer la situación real 
 | Proyecto | PaginaWebTest |
 | Metodología | Proyecto Profesional v3.0.0 |
 | Versión del Proyecto | 0.1.0 |
-| Estado General | En planificación |
+| Estado General | En Fase de Documentación |
 | Inicio del Proyecto | 05-08-2026 |
-| Responsable General | Chat 00 |
+| Responsable General | Chat 00 – Gestión del Proyecto |
 
 ---
 
 # 3. Resumen Ejecutivo
 
-El proyecto se encuentra en la fase inicial de planificación.
+El proyecto ha completado satisfactoriamente las siguientes fases:
 
-Hasta la fecha se ha completado:
+- Preparación.
+- Planificación.
+- Arquitectura.
+- Desarrollo.
+- Pruebas.
 
-- Creación del proyecto.
-- Configuración del repositorio.
-- Incorporación del Manual y la Plantilla.
-- Inicialización de los seis chats especializados.
-- Consolidación de la documentación de gestión.
+La versión **0.1.0** cumple la totalidad de los requisitos funcionales y no funcionales definidos para la Iteración 1.
 
-La siguiente fase será el diseño de la arquitectura del sistema.
+Las pruebas funcionales fueron aprobadas y la verificación objetiva mediante **Google Lighthouse** confirmó el cumplimiento del requisito RNF-002 (Rendimiento).
+
+No existen incidencias abiertas ni bloqueantes.
+
+Se autoriza el inicio de la **Fase de Documentación** mediante el Chat 04.
 
 ---
 
@@ -51,11 +55,11 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 | Fase | Estado |
 |------|--------|
 | Preparación | ✅ Completada |
-| Planificación | 🟡 En progreso |
-| Arquitectura | ⏳ Pendiente |
-| Desarrollo | ⏳ Pendiente |
-| Pruebas | ⏳ Pendiente |
-| Documentación Final | ⏳ Pendiente |
+| Planificación | ✅ Completada |
+| Arquitectura | ✅ Completada |
+| Desarrollo | ✅ Completado |
+| Pruebas | ✅ Completadas |
+| Documentación | 🟡 Autorizada / Pendiente de inicio |
 | Publicación | ⏳ Pendiente |
 
 ---
@@ -66,12 +70,12 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Documento | Estado |
 |------------|--------|
-| REQUIREMENTS.md | En elaboración |
-| ROADMAP.md | En elaboración |
-| ITERATIONS.md | En elaboración |
-| RISKS.md | En elaboración |
-| PROJECT_STATUS.md | Vigente |
-| TODO.md | Pendiente de actualización |
+| REQUIREMENTS.md | ✅ Aprobado |
+| ROADMAP.md | ✅ Aprobado |
+| ITERATIONS.md | ✅ Vigente |
+| RISKS.md | ✅ Vigente |
+| PROJECT_STATUS.md | ✅ Vigente |
+| TODO.md | ✅ Vigente |
 
 ---
 
@@ -79,8 +83,8 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Documento | Estado |
 |------------|--------|
-| ARCHITECTURE.md | Pendiente |
-| DECISIONS.md | Pendiente |
+| ARCHITECTURE.md | ✅ Aprobado |
+| DECISIONS.md | ✅ Aprobado |
 
 ---
 
@@ -88,7 +92,9 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Documento | Estado |
 |------------|--------|
-| Código Fuente | Pendiente |
+| development/src/index.html | ✅ Implementado |
+| development/src/styles/style.css | ✅ Implementado |
+| development/src/scripts/main.js | ✅ Implementado |
 
 ---
 
@@ -96,7 +102,8 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Documento | Estado |
 |------------|--------|
-| TEST_PLAN.md | Pendiente |
+| TEST_PLAN.md | ✅ Aprobado |
+| TEST_RESULTS.md | ✅ Aprobado |
 
 ---
 
@@ -104,8 +111,8 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Documento | Estado |
 |------------|--------|
-| VERSION.md | Pendiente |
-| CHANGELOG.md | Pendiente |
+| VERSION.md | ⏳ Pendiente |
+| CHANGELOG.md | ⏳ Pendiente |
 
 ---
 
@@ -113,27 +120,27 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | Chat | Estado |
 |------|--------|
-| Chat 00 Gestión | 🟢 Activo |
-| Chat 01 Arquitectura | ⚪ Esperando autorización |
-| Chat 02 Desarrollo | ⚪ Esperando arquitectura |
-| Chat 03 Pruebas | ⚪ Esperando desarrollo |
-| Chat 04 Documentación | ⚪ Esperando actualizaciones |
-| Chat 05 Git y GitHub | ⚪ Esperando primera versión |
+| Chat 00 – Gestión | 🟢 Coordinando |
+| Chat 01 – Arquitectura | ✅ Finalizado |
+| Chat 02 – Desarrollo | ✅ Finalizado |
+| Chat 03 – Pruebas | ✅ Finalizado |
+| Chat 04 – Documentación | 🟡 Autorizado |
+| Chat 05 – Git y GitHub | ⏳ Pendiente |
 
 ---
 
 # 7. Avance del Proyecto
 
 | Área | Avance |
-|------|---------|
-| Gestión | 80 % |
-| Arquitectura | 0 % |
-| Desarrollo | 0 % |
-| Pruebas | 0 % |
-| Documentación | 20 % |
+|------|---------:|
+| Gestión | 100 % |
+| Arquitectura | 100 % |
+| Desarrollo | 100 % |
+| Pruebas | 100 % |
+| Documentación | 0 % |
 | Versionado | 0 % |
 
-**Avance global estimado:** **20 %**
+**Avance global estimado:** **83 %**
 
 ---
 
@@ -142,8 +149,8 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 | Campo | Valor |
 |--------|-------|
 | Iteración actual | Iteración 1 |
-| Estado | En planificación |
-| Objetivo | Construcción del MVP y consolidación metodológica |
+| Estado | En Fase de Documentación |
+| Objetivo | Completar la documentación técnica y preparar la publicación de la versión 0.1.0 |
 
 ---
 
@@ -151,58 +158,55 @@ La siguiente fase será el diseño de la arquitectura del sistema.
 
 | ID | Nivel | Estado |
 |----|--------|--------|
-| RSK-001 | Alto | Abierto |
 | RSK-002 | Medio | Abierto |
 | RSK-003 | Alto | Abierto |
-| RSK-004 | Medio | Abierto |
+| RSK-008 | Bajo | Abierto |
 
-Los detalles completos se encuentran en **RISKS.md**.
+Todos los riesgos asociados a Arquitectura, Desarrollo y Pruebas fueron mitigados o cerrados.
 
 ---
 
 # 10. Bloqueos
 
-Actualmente no existen bloqueos técnicos.
+Actualmente no existen bloqueos técnicos ni metodológicos que impidan continuar con el proyecto.
 
-El único requisito pendiente para avanzar es:
-
-- Finalizar y aprobar la documentación de Gestión.
+Todos los requisitos funcionales y no funcionales de la Iteración 1 se encuentran aprobados.
 
 ---
 
 # 11. Próximas Actividades
 
-1. Finalizar la documentación de Gestión.
-2. Autorizar el inicio del Chat 01.
-3. Elaborar ARCHITECTURE.md.
-4. Registrar las ADR.
-5. Autorizar el inicio del desarrollo.
+1. Revisar la documentación técnica.
+2. Sincronizar la documentación del proyecto.
+3. Actualizar VERSION.md.
+4. Actualizar CHANGELOG.md.
+5. Preparar la publicación de la versión 0.1.0.
+6. Ejecutar la fase de Git y GitHub.
 
 ---
 
 # 12. Indicadores
 
 | Indicador | Valor |
-|------------|------|
-| Documentos de Gestión completados | 5 / 6 |
-| Chats inicializados | 6 / 6 |
-| Iteraciones iniciadas | 1 |
-| Versiones publicadas | 0 |
-| Riesgos críticos | 0 |
-| Riesgos altos | 2 |
+|------------|------:|
+| Documentos de Gestión aprobados | 6 / 6 |
+| Documentos de Arquitectura aprobados | 2 / 2 |
+| Chats finalizados | 4 / 6 |
+| Requisitos funcionales aprobados | 5 / 5 |
+| Requisitos no funcionales aprobados | 4 / 4 |
+| Incidencias abiertas | 0 |
+| Riesgos críticos abiertos | 0 |
 
 ---
 
 # 13. Criterios para Cambio de Fase
 
-Se autorizará el paso a Arquitectura cuando:
+Se autorizará el paso a la Fase de Publicación cuando:
 
-- REQUIREMENTS aprobado.
-- ROADMAP aprobado.
-- ITERATIONS aprobado.
-- RISKS aprobado.
-- PROJECT_STATUS aprobado.
-- TODO aprobado.
+- La documentación del proyecto haya sido aprobada.
+- VERSION.md haya sido actualizado.
+- CHANGELOG.md haya sido actualizado.
+- El Chat 04 emita la aprobación de la Fase de Documentación.
 
 La autorización será emitida exclusivamente por el Chat 00.
 
@@ -213,9 +217,9 @@ La autorización será emitida exclusivamente por el Chat 00.
 | Campo | Valor |
 |--------|-------|
 | Estado | Vigente |
-| Responsable | Chat 00 |
-| Próxima revisión | Al finalizar cada iteración |
-| Versión | 0.1.0 |
+| Responsable | Chat 00 – Gestión del Proyecto |
+| Próxima revisión | Al finalizar la Fase de Documentación |
+| Versión | 0.1.2 |
 
 ---
 
@@ -223,4 +227,6 @@ La autorización será emitida exclusivamente por el Chat 00.
 
 | Versión | Fecha | Descripción |
 |----------|-------|-------------|
-| 0.1.0 | 05-08-2026 | Creación inicial del documento de seguimiento del proyecto |
+| 0.1.0 | 05-08-2026 | Creación inicial del documento de seguimiento del proyecto. |
+| 0.1.1 | 07-08-2026 | Actualización tras la aprobación de Arquitectura y la finalización del Desarrollo. Se autoriza el inicio de la Fase de Pruebas. |
+| 0.1.2 | 07-08-2026 | Actualización tras la aprobación completa de la Fase de Pruebas. Se incorpora la validación objetiva del rendimiento mediante Google Lighthouse, se eliminan todas las observaciones pendientes y se autoriza el inicio de la Fase de Documentación. |

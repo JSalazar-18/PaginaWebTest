@@ -5,7 +5,7 @@
 **Versión:** 0.1.0  
 **Estado:** Vigente  
 **Responsable:** Chat 00 – Gestión del Proyecto  
-**Última actualización:** 05-08-2026
+**Última actualización:** 07-08-2026
 
 ---
 
@@ -21,15 +21,12 @@ Cada iteración deberá generar un incremento funcional del proyecto y mantener 
 
 El proyecto seguirá una estrategia de desarrollo incremental.
 
-Cada iteración deberá finalizar con:
+Cada iteración finalizará únicamente cuando:
 
-- Desarrollo funcional.
-- Documentación actualizada.
-- Evidencias de pruebas.
-- Estado del proyecto actualizado.
-- Registro de cambios.
-
-No podrá iniciarse una nueva iteración sin cerrar formalmente la anterior.
+- El desarrollo correspondiente haya concluido.
+- Las pruebas hayan sido aprobadas.
+- La documentación esté sincronizada.
+- El Chat 00 autorice el cierre de la iteración.
 
 ---
 
@@ -40,7 +37,7 @@ No podrá iniciarse una nueva iteración sin cerrar formalmente la anterior.
 | Iteración actual | Iteración 1 |
 | Total de iteraciones planificadas | 4 |
 | Iteraciones completadas | 0 |
-| Estado del proyecto | Planificación |
+| Estado del proyecto | Fase de Pruebas |
 
 ---
 
@@ -48,7 +45,7 @@ No podrá iniciarse una nueva iteración sin cerrar formalmente la anterior.
 
 ## Objetivo
 
-Construir la primera versión funcional del proyecto y dejar completamente establecida la base documental y metodológica.
+Construir la primera versión funcional del proyecto y establecer completamente la base metodológica.
 
 ---
 
@@ -56,22 +53,26 @@ Construir la primera versión funcional del proyecto y dejar completamente estab
 
 Incluye:
 
-- Validación de requisitos.
-- Arquitectura inicial.
-- Desarrollo de la aplicación.
-- Pruebas iniciales.
+- Gestión del proyecto.
+- Arquitectura.
+- Desarrollo.
+- Pruebas.
 - Documentación.
-- Preparación de la versión 0.1.0.
+- Publicación de la versión 0.1.0.
 
 ---
 
 ## Requisitos asociados
+
+### Funcionales
 
 - RF-001
 - RF-002
 - RF-003
 - RF-004
 - RF-005
+
+### No funcionales
 
 - RNF-001
 - RNF-002
@@ -80,70 +81,94 @@ Incluye:
 
 ---
 
-## Entregables
+## Estado de los Entregables
 
-- REQUIREMENTS aprobado.
-- ROADMAP aprobado.
-- ITERATIONS aprobado.
-- RISKS actualizado.
-- ARCHITECTURE.
-- DECISIONS (ADR).
-- Código fuente inicial.
-- TEST_PLAN.
-- PROJECT_STATUS actualizado.
-- TODO actualizado.
-- VERSION 0.1.0.
-- CHANGELOG actualizado.
+| Entregable | Estado |
+|------------|--------|
+| REQUIREMENTS.md | ✅ Aprobado |
+| ROADMAP.md | ✅ Aprobado |
+| ITERATIONS.md | ✅ Vigente |
+| RISKS.md | ✅ Vigente |
+| ARCHITECTURE.md | ✅ Aprobado |
+| DECISIONS.md | ✅ Aprobado |
+| Código Fuente | ✅ Implementado |
+| TEST_PLAN.md | 🟡 Pendiente |
+| PROJECT_STATUS.md | ✅ Actualizado |
+| TODO.md | ✅ Actualizado |
+| VERSION.md | ⏳ Pendiente |
+| CHANGELOG.md | ⏳ Pendiente |
 
 ---
 
 ## Dependencias
 
-Antes de iniciar:
+Completadas:
 
 - REQUIREMENTS aprobado.
 - ROADMAP aprobado.
+- Arquitectura aprobada.
+- Desarrollo finalizado.
+
+Pendientes:
+
+- TEST_PLAN.
+- Validación funcional.
+- Publicación.
 
 ---
 
 ## Riesgos
 
+Mitigados:
+
 - Cambios de alcance.
-- Retrasos en documentación.
-- Cambios metodológicos.
+- Errores arquitectónicos.
+- Defectos de implementación.
+
+Activos:
+
+- Cobertura de pruebas.
+- Documentación final.
+- Versionado.
 
 ---
 
 ## Responsable
 
-Chat 00 coordina.
+Coordinación:
+
+- Chat 00
 
 Participan:
 
-- Chat 01
-- Chat 02
-- Chat 03
-- Chat 04
-- Chat 05
+- Chat 01 ✅
+- Chat 02 ✅
+- Chat 03 🟡
+- Chat 04 ⏳
+- Chat 05 ⏳
 
 ---
 
 ## Estado
 
-En planificación.
+**En Fase de Pruebas**
 
 ---
 
-## Criterios de aceptación
+## Criterios de aceptación alcanzados
 
-La iteración finalizará cuando:
+Se verificó:
 
-- Todos los requisitos P0 estén implementados.
-- No existan incidencias críticas.
-- Documentación sincronizada.
-- Arquitectura aprobada.
-- Pruebas satisfactorias.
-- Proyecto listo para publicar versión 0.1.0.
+- ✅ Arquitectura aprobada.
+- ✅ Desarrollo completado.
+- ✅ Todos los requisitos funcionales implementados.
+- ✅ Sin incidencias reportadas durante el desarrollo.
+
+Pendiente:
+
+- Ejecución del TEST_PLAN.
+- Validación final.
+- Publicación.
 
 ---
 
@@ -151,12 +176,12 @@ La iteración finalizará cuando:
 
 La Iteración 1 se cerrará únicamente cuando:
 
-- PROJECT_STATUS refleje el estado real.
-- TODO no contenga tareas críticas pendientes.
-- VERSION sea 0.1.0.
-- CHANGELOG actualizado.
-- Commit preparado.
-- Push realizado.
+- TEST_PLAN aprobado.
+- No existan incidencias críticas.
+- Documentación sincronizada.
+- VERSION.md actualizado.
+- CHANGELOG.md actualizado.
+- Publicación de la versión 0.1.0.
 
 ---
 
@@ -166,18 +191,7 @@ La Iteración 1 se cerrará únicamente cuando:
 
 Incrementar la calidad visual y mejorar la organización del código.
 
----
-
-## Alcance previsto
-
-- Mejoras de interfaz.
-- Optimización responsive.
-- Refactorización.
-- Organización del código.
-
----
-
-## Estado
+Estado:
 
 Planificada.
 
@@ -189,17 +203,7 @@ Planificada.
 
 Agregar nuevas funcionalidades manteniendo la arquitectura estable.
 
----
-
-## Alcance previsto
-
-- Nuevos modos del indicador.
-- Configuración.
-- Mejoras de experiencia de usuario.
-
----
-
-## Estado
+Estado:
 
 Planificada.
 
@@ -209,20 +213,9 @@ Planificada.
 
 ## Objetivo
 
-Preparar la versión estable del proyecto.
+Preparar la primera versión estable del proyecto.
 
----
-
-## Alcance previsto
-
-- Validación final.
-- Cobertura de pruebas.
-- Revisión documental.
-- Publicación.
-
----
-
-## Estado
+Estado:
 
 Planificada.
 
@@ -232,10 +225,10 @@ Planificada.
 
 | Iteración | Objetivo | Estado |
 |------------|----------|--------|
-| 1 | MVP + Documentación | En planificación |
-| 2 | Mejoras funcionales | Planificada |
-| 3 | Evolución | Planificada |
-| 4 | Liberación | Planificada |
+| 1 | MVP + Base metodológica | 🟡 En Pruebas |
+| 2 | Mejoras funcionales | ⏳ Planificada |
+| 3 | Evolución | ⏳ Planificada |
+| 4 | Liberación | ⏳ Planificada |
 
 ---
 
@@ -249,19 +242,21 @@ Este documento mantiene trazabilidad con:
 - PROJECT_STATUS.md
 - TODO.md
 - ARCHITECTURE.md
+- DECISIONS.md
 - TEST_PLAN.md
 
 ---
 
 # 10. Indicadores
 
-| Indicador | Objetivo |
-|------------|----------|
-| Iteraciones completadas | 100 % |
-| Entregables aprobados | 100 % |
-| Documentación sincronizada | 100 % |
-| Riesgos críticos abiertos | 0 |
-| Incidencias críticas | 0 |
+| Indicador | Valor |
+|------------|------:|
+| Gestión completada | 100 % |
+| Arquitectura completada | 100 % |
+| Desarrollo completado | 100 % |
+| Pruebas completadas | 0 % |
+| Documentación final | 0 % |
+| Publicación | 0 % |
 
 ---
 
@@ -270,8 +265,8 @@ Este documento mantiene trazabilidad con:
 | Campo | Valor |
 |--------|-------|
 | Estado | Vigente |
-| Responsable | Chat 00 |
-| Próxima revisión | Al cierre de cada iteración |
+| Responsable | Chat 00 – Gestión del Proyecto |
+| Próxima revisión | Al finalizar la Fase de Pruebas |
 | Versión | 0.1.0 |
 
 ---
@@ -280,4 +275,5 @@ Este documento mantiene trazabilidad con:
 
 | Versión | Fecha | Descripción |
 |----------|-------|-------------|
-| 0.1.0 | 05-08-2026 | Creación inicial del plan de iteraciones alineado con la Metodología del Proyecto Profesional v3.0.0 |
+| 0.1.0 | 05-08-2026 | Creación inicial del plan de iteraciones. |
+| 0.1.1 | 07-08-2026 | Actualización tras la aprobación de Arquitectura y la finalización del Desarrollo. La Iteración 1 pasa oficialmente a la Fase de Pruebas. |

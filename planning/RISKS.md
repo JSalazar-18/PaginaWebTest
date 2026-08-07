@@ -5,7 +5,7 @@
 **Versión:** 0.1.0  
 **Estado:** Vigente  
 **Responsable:** Chat 00 – Gestión del Proyecto  
-**Última actualización:** 05-08-2026
+**Última actualización:** 07-08-2026
 
 ---
 
@@ -74,14 +74,14 @@ Todo riesgo nuevo deberá registrarse antes de iniciar una nueva iteración.
 
 | ID | Riesgo | Prob. | Impacto | Nivel | Estrategia | Responsable | Estado |
 |----|---------|--------|----------|--------|-------------|--------------|--------|
-| RSK-001 | Cambios de alcance durante el desarrollo | Media | Alto | Alto | Validar todos los cambios mediante Chat 00 | Chat 00 | Abierto |
-| RSK-002 | Retraso en la documentación | Media | Medio | Medio | Actualizar documentos al finalizar cada actividad | Chat 00 | Abierto |
-| RSK-003 | Inconsistencia entre documentos | Media | Alto | Alto | Revisiones cruzadas antes de aprobar una fase | Chat 04 | Abierto |
-| RSK-004 | Cambios metodológicos durante el proyecto | Baja | Alto | Medio | Mantener alineación con Manual y Plantilla | Chat 00 | Abierto |
-| RSK-005 | Errores en la arquitectura inicial | Baja | Alto | Medio | Revisión técnica por Chat 01 | Chat 01 | Abierto |
-| RSK-006 | Defectos durante el desarrollo | Media | Medio | Medio | Revisiones de código y pruebas unitarias | Chat 02 | Abierto |
-| RSK-007 | Cobertura insuficiente de pruebas | Media | Alto | Alto | Ejecutar TEST_PLAN completo | Chat 03 | Abierto |
-| RSK-008 | Versionado incorrecto | Baja | Medio | Bajo | Validación antes del Commit | Chat 05 | Abierto |
+| RSK-001 | Cambios de alcance durante el desarrollo | Media | Alto | Alto | Validar cambios mediante Chat 00 | Chat 00 | ✅ Mitigado |
+| RSK-002 | Retraso en la documentación | Media | Medio | Medio | Actualizar documentos al finalizar cada fase | Chat 00 | 🔄 Abierto |
+| RSK-003 | Inconsistencia entre documentos | Media | Alto | Alto | Revisiones cruzadas | Chat 04 | 🔄 Abierto |
+| RSK-004 | Cambios metodológicos durante el proyecto | Baja | Alto | Medio | Mantener alineación con Manual y Plantilla | Chat 00 | ✅ Mitigado |
+| RSK-005 | Errores en la arquitectura inicial | Baja | Alto | Medio | Revisión técnica por Chat 01 | Chat 01 | ✅ Cerrado |
+| RSK-006 | Defectos durante el desarrollo | Media | Medio | Medio | Revisiones de código | Chat 02 | ✅ Cerrado |
+| RSK-007 | Cobertura insuficiente de pruebas | Media | Alto | Alto | Ejecutar TEST_PLAN completo | Chat 03 | 🔄 Abierto |
+| RSK-008 | Versionado incorrecto | Baja | Medio | Bajo | Validación antes del Commit | Chat 05 | 🔄 Abierto |
 
 ---
 
@@ -89,66 +89,69 @@ Todo riesgo nuevo deberá registrarse antes de iniciar una nueva iteración.
 
 ## Iteración 1
 
-Riesgos principales:
+### Riesgos mitigados
 
-- Cambios de alcance.
-- Retrasos documentales.
-- Errores arquitectónicos.
-- Desarrollo fuera de metodología.
+- Cambios de alcance durante el desarrollo.
+- Cambios metodológicos.
+- Errores de arquitectura.
+- Defectos de implementación.
+
+### Riesgos activos
+
+- Retraso documental.
+- Inconsistencia documental.
+- Cobertura insuficiente de pruebas.
+- Versionado final.
 
 ---
 
 ## Iteración 2
 
-Riesgos previstos:
-
-- Refactorización incorrecta.
-- Incremento de deuda técnica.
+Pendiente.
 
 ---
 
 ## Iteración 3
 
-Riesgos previstos:
-
-- Incremento de complejidad.
-- Nuevos requisitos.
+Pendiente.
 
 ---
 
 ## Iteración 4
 
-Riesgos previstos:
-
-- Retrasos en la publicación.
-- Defectos detectados durante pruebas finales.
+Pendiente.
 
 ---
 
 # 6. Riesgos Cerrados
 
-No existen riesgos cerrados en la versión 0.1.0.
+| ID | Riesgo | Fecha | Observación |
+|----|---------|--------|-------------|
+| RSK-005 | Errores en la arquitectura | 07-08-2026 | Arquitectura aprobada por Chat 00 |
+| RSK-006 | Defectos durante el desarrollo | 07-08-2026 | Desarrollo finalizado sin incidencias |
 
 ---
 
 # 7. Seguimiento
 
-Cada revisión deberá registrar:
-
 | Fecha | Riesgo | Acción | Responsable |
 |--------|---------|---------|--------------|
-| — | — | — | — |
+| 07-08-2026 | RSK-001 | Mitigado tras aprobación del desarrollo | Chat 00 |
+| 07-08-2026 | RSK-004 | Mitigado al mantenerse la metodología sin cambios | Chat 00 |
+| 07-08-2026 | RSK-005 | Riesgo cerrado tras aprobación de Arquitectura | Chat 01 |
+| 07-08-2026 | RSK-006 | Riesgo cerrado tras finalizar Desarrollo | Chat 02 |
 
 ---
 
 # 8. Indicadores
 
-| Indicador | Objetivo |
-|------------|----------|
+| Indicador | Valor |
+|------------|------:|
+| Riesgos registrados | 8 |
+| Riesgos cerrados | 2 |
+| Riesgos mitigados | 2 |
+| Riesgos abiertos | 4 |
 | Riesgos críticos abiertos | 0 |
-| Riesgos mitigados | 100 % |
-| Riesgos sin responsable | 0 |
-| Riesgos revisados por iteración | 100 % |
 
 ---
 
@@ -170,8 +173,8 @@ Este documento mantiene trazabilidad con:
 | Campo | Valor |
 |--------|-------|
 | Estado | Vigente |
-| Responsable | Chat 00 |
-| Próxima revisión | Al cierre de cada iteración |
+| Responsable | Chat 00 – Gestión del Proyecto |
+| Próxima revisión | Al finalizar la Fase de Pruebas |
 | Versión | 0.1.0 |
 
 ---
@@ -180,4 +183,5 @@ Este documento mantiene trazabilidad con:
 
 | Versión | Fecha | Descripción |
 |----------|-------|-------------|
-| 0.1.0 | 05-08-2026 | Creación inicial del registro de riesgos alineado con la Metodología del Proyecto Profesional v3.0.0 |
+| 0.1.0 | 05-08-2026 | Creación inicial del registro de riesgos. |
+| 0.1.1 | 07-08-2026 | Actualización tras la aprobación de Arquitectura y la finalización del Desarrollo. Se cierran y mitigan los riesgos correspondientes y se mantienen activos únicamente los relacionados con Pruebas, Documentación y Publicación. |
