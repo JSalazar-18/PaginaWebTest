@@ -1,8 +1,11 @@
-﻿# VERSION
+# VERSION
 
-## Proyecto
-
-**PaginaWebTest**
+**Proyecto:** PaginaWebTest
+**Documento:** VERSION.md
+**Versión del documento:** 0.1.1
+**Estado:** Vigente
+**Responsable:** Chat 00 – Gestión del Proyecto
+**Última actualización:** 08-08-2026
 
 ---
 
@@ -14,13 +17,13 @@
 
 ## Estado
 
-**Lista para publicación**
+**Publicada**
 
 ---
 
 ## Fecha de publicación
 
-**Pendiente de publicación formal**
+**08-08-2026**
 
 ---
 
@@ -37,19 +40,24 @@ La versión implementa el MVP definido en los requisitos y cuenta con:
 - Auditoría documental completada.
 - Documentación de gestión sincronizada.
 - Fase de Documentación aprobada por Chat 00.
-
-La versión queda preparada para completar la Fase de Git y GitHub, realizar el Release y efectuar la publicación formal.
+- Gestión de Git y GitHub completada por Chat 05.
+- Release 0.1.0 preparado y publicado.
 
 ---
 
-## Compatibilidad
+## Alineación metodológica y compatibilidad
 
-**Compatible con:**
+### Alineación metodológica
 
-- Manual Metodológico del Proyecto Profesional v3.0.0
-- Plantilla_Proyecto_Profesional v3.0.0
-- Google Chrome
-- Microsoft Edge
+- Manual Metodológico del Proyecto Profesional v3.0.0.
+- Plantilla_Proyecto_Profesional v3.0.0.
+
+### Compatibilidad oficial
+
+- Google Chrome.
+- Microsoft Edge.
+
+No se establece compatibilidad oficial con Mozilla Firefox para la versión 0.1.0.
 
 ---
 
@@ -80,23 +88,31 @@ No incluye:
 
 ## Estado de publicación
 
-La versión **0.1.0** se encuentra implementada, probada y documentada.
+La versión **0.1.0** se encuentra implementada, probada, documentada y publicada.
 
-La actualización de `VERSION.md` y `CHANGELOG.md` ha sido completada.
+De acuerdo con el informe de cierre del **Chat 05 – Git y GitHub**:
 
-La publicación formal permanece pendiente de completar:
+- Rama: `master`.
+- Commit de Release: `e170a64090685390d348ba3642c0295c5e934ae0`.
+- Tag: `v0.1.0`.
+- El tag `v0.1.0` apunta al commit `e170a64`.
+- `origin/master` contiene el commit `e170a64`.
+- El tag `v0.1.0` fue publicado en GitHub.
+- El Release `0.1.0` fue publicado en GitHub.
+- El Release figura como `Latest`.
+- El working tree quedó limpio.
 
-1. Preparación del Release `0.1.0`.
-2. Publicación de la versión `0.1.0`.
-3. Validación final y autorización de cierre de la Iteración 1 por Chat 00.
+La publicación de la versión **0.1.0** se considera completada.
+
+La validación final del estado del proyecto y la autorización para el cierre formal de la Iteración 1 corresponden al **Chat 00 – Gestión del Proyecto**.
 
 ---
 
 ## Historial de versiones
 
-| **Versión** | **Fecha de publicación** | **Estado**             | **Descripción**                                                                                                  |
-| ----------- | ------------------------ | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **0.1.0**   | Pendiente                | Lista para publicación | MVP funcional, pruebas y documentación de la Iteración 1 completados. Pendiente de Release y publicación formal. |
+| Versión   | Fecha de publicación | Estado    | Descripción                                                                                                 |
+| --------- | -------------------- | --------- | ----------------------------------------------------------------------------------------------------------- |
+| **0.1.0** | 08-08-2026           | Publicada | MVP funcional, pruebas y documentación de la Iteración 1 completados. Release `v0.1.0` publicado en GitHub. |
 
 ---
 
@@ -110,6 +126,26 @@ Mejoras planificadas:
 - Refactorización del código.
 - Optimización responsive.
 - Mejora de la organización del proyecto.
+
+---
+
+## Estado del documento
+
+| Campo                 | Valor                          |
+| --------------------- | ------------------------------ |
+| Estado                | Vigente                        |
+| Responsable           | Chat 00 – Gestión del Proyecto |
+| Próxima revisión      | Al preparar una nueva versión  |
+| Versión del documento | 0.1.1                          |
+
+---
+
+## Historial de cambios del documento
+
+| Versión | Fecha      | Descripción                                                                                                                                                          |
+| ------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1.0   | 08-08-2026 | Creación y actualización inicial del registro de versión 0.1.0.                                                                                                      |
+| 0.1.1   | 08-08-2026 | Corrección de la clasificación entre alineación metodológica y compatibilidad oficial. Confirmación del estado publicado de la versión 0.1.0 y del Release `v0.1.0`. |
 
 ---
 

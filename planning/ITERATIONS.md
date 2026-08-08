@@ -2,7 +2,7 @@
 
 **Proyecto:** PaginaWebTest
 **Documento:** ITERATIONS.md
-**Versión:** 0.1.3
+**Versión:** 0.1.5
 **Estado:** Vigente
 **Responsable:** Chat 00 – Gestión del Proyecto
 **Última actualización:** 08-08-2026
@@ -27,6 +27,8 @@ Cada iteración finalizará únicamente cuando:
 - Las pruebas hayan sido aprobadas.
 - La documentación esté sincronizada.
 - Las fases previstas para la iteración hayan sido completadas.
+- Las actividades de Git y GitHub hayan sido completadas cuando formen parte de la iteración.
+- La publicación prevista haya sido completada cuando forme parte de la iteración.
 - El Chat 00 autorice formalmente el cierre de la iteración.
 
 La finalización de las fases individuales no implica por sí misma el cierre de la iteración.
@@ -35,14 +37,15 @@ La finalización de las fases individuales no implica por sí misma el cierre de
 
 # 3. Estado General
 
-| Campo                             | Valor                                                         |
-| --------------------------------- | ------------------------------------------------------------- |
-| Iteración actual                  | Iteración 1                                                   |
-| Total de iteraciones planificadas | 4                                                             |
-| Iteraciones completadas           | 0                                                             |
-| Fase actual                       | Git y GitHub                                                  |
-| Estado del proyecto               | Documentación completada y aprobada / Git y GitHub autorizado |
-| Próximo hito                      | Ejecución de la Fase de Git y GitHub mediante Chat 05         |
+| Campo                             | Valor                                          |
+| --------------------------------- | ---------------------------------------------- |
+| Iteración actual                  | Iteración 1                                    |
+| Total de iteraciones planificadas | 4                                              |
+| Iteraciones completadas           | 1                                              |
+| Fase actual                       | Iteración 1 — Cerrada                          |
+| Estado del proyecto               | Iteración 1 cerrada / versión 0.1.0 publicada  |
+| Próxima iteración                 | Iteración 2 — Planificada                      |
+| Próximo hito                      | Planificación y autorización de la Iteración 2 |
 
 ---
 
@@ -64,7 +67,7 @@ Incluye:
 - Pruebas.
 - Documentación.
 - Git y GitHub.
-- Preparación de la publicación de la versión 0.1.0.
+- Preparación y publicación de la versión 0.1.0.
 
 ---
 
@@ -102,8 +105,10 @@ Incluye:
 | TEST_RESULTS.md   | ✅ Aprobado                |
 | PROJECT_STATUS.md | ✅ Actualizado             |
 | TODO.md           | ✅ Sincronizado            |
-| VERSION.md        | ⏳ Pendiente de Chat 05    |
-| CHANGELOG.md      | ⏳ Pendiente de Chat 05    |
+| VERSION.md        | ✅ Actualizado             |
+| CHANGELOG.md      | ✅ Actualizado             |
+| Release 0.1.0     | ✅ Publicado               |
+| Tag v0.1.0        | ✅ Publicado               |
 
 ---
 
@@ -120,18 +125,16 @@ Incluye:
 - Sincronización final de los documentos de gestión completada.
 - Validación metodológica de la Fase de Documentación completada por Chat 00.
 - Fase de Documentación aprobada por Chat 00.
-
-### Autorizada
-
-- Fase de Git y GitHub mediante Chat 05.
+- Fase de Git y GitHub completada por Chat 05.
+- VERSION.md actualizado.
+- CHANGELOG.md actualizado.
+- Release 0.1.0 preparado.
+- Release 0.1.0 publicado.
+- Tag v0.1.0 publicado.
 
 ### Pendientes
 
-- Actualización de VERSION.md.
-- Actualización de CHANGELOG.md.
-- Preparación del Release 0.1.0.
-- Publicación de la versión 0.1.0.
-- Cierre formal de la Iteración 1.
+No existen dependencias pendientes correspondientes a la Iteración 1.
 
 ---
 
@@ -145,13 +148,18 @@ Incluye:
 - Defectos de implementación.
 - Cobertura insuficiente de pruebas.
 - Retrasos en documentación.
-- Inconsistencia documental.
 
-### Pendientes
+### Cerrados
 
-- Versionado final de la versión 0.1.0.
+- RSK-002 — Retraso en documentación.
+- RSK-003 — Inconsistencia documental.
+- RSK-008 — Versionado incorrecto.
 
-Los riesgos detallados y su estado oficial se administran en `RISKS.md`.
+No existen riesgos pendientes para la Iteración 1.
+
+El estado oficial de los riesgos se administra en:
+
+`planning/RISKS.md`
 
 ---
 
@@ -167,25 +175,37 @@ Los riesgos detallados y su estado oficial se administran en `RISKS.md`.
 - Chat 02 – Desarrollo ✅
 - Chat 03 – Pruebas ✅
 - Chat 04 – Documentación ✅
-- Chat 05 – Git y GitHub 🟢 Autorizado
+- Chat 05 – Git y GitHub ✅
 
 ---
 
 ## Estado
 
-**Documentación completada y aprobada / Git y GitHub autorizado**
+**Iteración 1 — CERRADA**
 
-La auditoría documental fue completada por Chat 04.
+La Iteración 1 fue completada conforme a los criterios establecidos.
 
-La documentación técnica fue revisada y la trazabilidad entre requisitos, arquitectura, desarrollo y pruebas fue verificada.
+Se completaron las fases de:
 
-La sincronización final de los documentos de gestión fue completada por Chat 00.
+- Gestión.
+- Arquitectura.
+- Desarrollo.
+- Pruebas.
+- Documentación.
+- Git y GitHub.
+- Publicación.
 
-La validación metodológica de la Fase de Documentación fue completada por Chat 00.
+La documentación fue sincronizada y validada.
 
-La Fase de Documentación queda formalmente aprobada.
+La versión **0.1.0** fue preparada y publicada.
 
-El Chat 05 – Git y GitHub queda autorizado para iniciar sus actividades conforme al flujo metodológico.
+El Release `0.1.0` y el tag `v0.1.0` fueron publicados en GitHub.
+
+El Chat 00 realizó la validación final de la documentación y emitió la **decisión formal de cierre de la Iteración 1**.
+
+Por tanto:
+
+> **La Iteración 1 queda formalmente cerrada.**
 
 ---
 
@@ -199,42 +219,42 @@ Se verificó:
 - ✅ Todos los requisitos no funcionales aprobados.
 - ✅ Pruebas funcionales aprobadas.
 - ✅ Verificación de rendimiento mediante Google Lighthouse.
+- ✅ Compatibilidad oficial con Google Chrome y Microsoft Edge.
 - ✅ Sin incidencias abiertas.
 - ✅ Sin bloqueos.
 - ✅ Auditoría documental completada.
 - ✅ Sincronización documental completada.
 - ✅ Validación metodológica completada.
 - ✅ Fase de Documentación aprobada.
-- ✅ Chat 05 autorizado.
-
----
-
-## Criterios pendientes
-
-Para completar la Iteración 1:
-
-- Ejecutar la Fase de Git y GitHub.
-- Actualizar VERSION.md.
-- Actualizar CHANGELOG.md.
-- Preparar el Release 0.1.0.
-- Publicar la versión 0.1.0.
-- Obtener autorización formal de Chat 00 para cerrar la Iteración 1.
+- ✅ Git y GitHub completado.
+- ✅ VERSION.md actualizado.
+- ✅ CHANGELOG.md actualizado.
+- ✅ Release 0.1.0 preparado.
+- ✅ Release 0.1.0 publicado.
+- ✅ Tag v0.1.0 publicado.
+- ✅ Todas las tareas TSK-001 a TSK-017 completadas.
+- ✅ Riesgos pendientes: 0.
+- ✅ Decisión formal de cierre emitida por Chat 00.
 
 ---
 
 ## Criterios de cierre de la Iteración 1
 
-La Iteración 1 se cerrará únicamente cuando:
+La Iteración 1 se considera formalmente cerrada porque:
 
-- La Fase de Documentación haya sido aprobada por Chat 00.
-- No existan incidencias críticas o bloqueantes.
-- La documentación esté completamente sincronizada.
-- VERSION.md haya sido actualizado.
-- CHANGELOG.md haya sido actualizado.
-- La Fase de Git y GitHub haya sido completada.
-- La versión 0.1.0 haya sido preparada para publicación.
-- La publicación de la versión 0.1.0 haya sido completada.
-- Chat 00 autorice formalmente el cierre de la Iteración 1.
+- La Fase de Documentación fue aprobada por Chat 00.
+- La documentación quedó completamente sincronizada.
+- No existen incidencias críticas o bloqueantes.
+- No existen riesgos pendientes.
+- VERSION.md fue actualizado.
+- CHANGELOG.md fue actualizado.
+- La Fase de Git y GitHub fue completada.
+- La versión 0.1.0 fue preparada.
+- El Release 0.1.0 fue publicado.
+- El tag v0.1.0 fue publicado.
+- El repositorio quedó correctamente sincronizado.
+- Las 17 tareas de la Iteración 1 fueron completadas.
+- Chat 00 emitió la decisión formal de cierre.
 
 ---
 
@@ -247,6 +267,10 @@ Incrementar la calidad visual y mejorar la organización del código.
 ### Estado
 
 Planificada.
+
+### Inicio
+
+La Iteración 2 no se considera iniciada hasta que Chat 00 apruebe formalmente su planificación y autorice su ejecución.
 
 ---
 
@@ -266,7 +290,7 @@ Planificada.
 
 ## Objetivo
 
-Preparar la primera versión estable del proyecto.
+Preparar una futura versión estable del proyecto.
 
 ### Estado
 
@@ -276,12 +300,12 @@ Planificada.
 
 # 8. Resumen de Iteraciones
 
-| Iteración | Objetivo                | Estado                                    |
-| --------- | ----------------------- | ----------------------------------------- |
-| 1         | MVP + Base metodológica | 🟡 Git y GitHub autorizado / En ejecución |
-| 2         | Mejoras funcionales     | ⏳ Planificada                            |
-| 3         | Evolución               | ⏳ Planificada                            |
-| 4         | Liberación              | ⏳ Planificada                            |
+| Iteración | Objetivo                | Estado         |
+| --------- | ----------------------- | -------------- |
+| 1         | MVP + Base metodológica | ✅ Cerrada     |
+| 2         | Mejoras funcionales     | ⏳ Planificada |
+| 3         | Evolución               | ⏳ Planificada |
+| 4         | Liberación              | ⏳ Planificada |
 
 ---
 
@@ -305,38 +329,46 @@ Este documento mantiene trazabilidad con:
 
 # 10. Indicadores
 
-| Indicador                                | Valor |
-| ---------------------------------------- | ----: |
-| Gestión planificada                      | 100 % |
-| Arquitectura completada                  | 100 % |
-| Desarrollo completado                    | 100 % |
-| Pruebas completadas                      | 100 % |
-| Auditoría documental                     | 100 % |
-| Sincronización documental                | 100 % |
-| Documentación aprobada metodológicamente | 100 % |
-| Git y GitHub                             |   0 % |
-| Versionado                               |   0 % |
-| Publicación                              |   0 % |
-| Iteración 1 cerrada                      |   0 % |
+| Indicador                                |   Valor |
+| ---------------------------------------- | ------: |
+| Gestión planificada                      |   100 % |
+| Arquitectura completada                  |   100 % |
+| Desarrollo completado                    |   100 % |
+| Pruebas completadas                      |   100 % |
+| Auditoría documental                     |   100 % |
+| Sincronización documental                |   100 % |
+| Documentación aprobada metodológicamente |   100 % |
+| Git y GitHub                             |   100 % |
+| Versionado                               |   100 % |
+| Release 0.1.0                            |   100 % |
+| Publicación                              |   100 % |
+| Tareas Iteración 1                       | 17 / 17 |
+| Riesgos pendientes                       |       0 |
+| Incidencias críticas                     |       0 |
+| Bloqueos                                 |       0 |
+| Iteración 1 cerrada                      |   100 % |
+| Iteración 2 iniciada                     |     0 % |
 
 ---
 
 # 11. Estado del Documento
 
-| Campo            | Valor                                                            |
-| ---------------- | ---------------------------------------------------------------- |
-| Estado           | Vigente                                                          |
-| Responsable      | Chat 00 – Gestión del Proyecto                                   |
-| Próxima revisión | Al finalizar la Fase de Git y GitHub o ante un cambio de alcance |
-| Versión          | 0.1.3                                                            |
+| Campo            | Valor                                                 |
+| ---------------- | ----------------------------------------------------- |
+| Estado           | Vigente                                               |
+| Responsable      | Chat 00 – Gestión del Proyecto                        |
+| Próxima revisión | Al iniciar la Iteración 2 o ante un cambio de alcance |
+| Versión          | 0.1.5                                                 |
 
 ---
 
 # 12. Historial de Cambios
 
-| Versión | Fecha      | Descripción                                                                                                                                                                                                                                                                                                                                                               |
-| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0.1.0   | 05-08-2026 | Creación inicial del plan de iteraciones.                                                                                                                                                                                                                                                                                                                                 |
-| 0.1.1   | 07-08-2026 | Sincronización del estado de la Iteración 1 con la situación real del proyecto. Se registran como completadas Arquitectura, Desarrollo y Pruebas; se incorpora la auditoría documental completada por Chat 04 y se establece como pendiente la aprobación metodológica del Chat 00, seguida de Git y GitHub y la publicación de la versión 0.1.0.                         |
-| 0.1.2   | 07-08-2026 | Actualización del estado de la Iteración 1 después de la sincronización de ROADMAP.md. Se diferencia la auditoría documental ya completada de la sincronización final de los documentos de gestión y de la posterior aprobación metodológica del Chat 00. Se actualizan entregables, dependencias, riesgos, criterios de aceptación, indicadores y condiciones de cierre. |
-| 0.1.3   | 08-08-2026 | Cierre de la sincronización documental y aprobación metodológica de la Fase de Documentación por Chat 00. Se actualiza la Iteración 1 a la Fase de Git y GitHub, se autoriza Chat 05 y se mantienen pendientes el versionado, Release, publicación y cierre formal de la Iteración 1.                                                                                     |
+| Versión | Fecha      | Descripción                                                                                                                                                                                                                                                               |
+| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1.0   | 05-08-2026 | Creación inicial del plan de iteraciones.                                                                                                                                                                                                                                 |
+| 0.1.1   | 07-08-2026 | Sincronización del estado de la Iteración 1 con la situación real del proyecto. Se registran como completadas Arquitectura, Desarrollo y Pruebas y se incorpora la auditoría documental de Chat 04.                                                                       |
+| 0.1.2   | 07-08-2026 | Actualización del estado de la Iteración 1 después de la sincronización de ROADMAP.md. Se diferencia la auditoría documental de la sincronización final y aprobación metodológica.                                                                                        |
+| 0.1.3   | 08-08-2026 | Cierre de la sincronización documental y aprobación metodológica de la Fase de Documentación por Chat 00. Se autoriza Chat 05 y permanecen pendientes el versionado, Release, publicación y cierre formal de la Iteración 1.                                              |
+| 0.1.4   | 08-08-2026 | Actualización posterior a la finalización de Git y GitHub. Se registran como completados VERSION.md, CHANGELOG.md, Release 0.1.0 y publicación del tag v0.1.0. La Iteración 1 permanece abierta únicamente para la validación final y autorización de cierre por Chat 00. |
+| 0.1.5   | 08-08-2026 | **Cierre formal de la Iteración 1 por Chat 00.** Se actualiza el estado de la iteración a cerrada, se registra 1 iteración completada, se confirman los criterios de cierre alcanzados y se establece la Iteración 2 como siguiente iteración planificada.                |

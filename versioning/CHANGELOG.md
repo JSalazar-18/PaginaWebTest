@@ -1,8 +1,17 @@
-﻿# CHANGELOG - Historial de Cambios
+# CHANGELOG - Historial de Cambios
 
-## [0.1.0] - Pendiente de publicación
+**Proyecto:** PaginaWebTest
+**Documento:** CHANGELOG.md
+**Versión del documento:** 0.1.1
+**Estado:** Vigente
+**Responsable:** Chat 00 – Gestión del Proyecto
+**Última actualización:** 08-08-2026
 
-### Añadido
+---
+
+# [0.1.0] - 08-08-2026
+
+## Añadido
 
 - Creación inicial del proyecto PaginaWebTest.
 - Estructura base de carpetas alineada con la Metodología del Proyecto Profesional v3.0.0.
@@ -15,13 +24,17 @@
 - Diseño responsive básico.
 - Compatibilidad oficial con Google Chrome y Microsoft Edge.
 
-### Cambiado
+---
+
+## Cambiado
 
 - Alineación del proyecto con el Manual Metodológico del Proyecto Profesional v3.0.0.
 - Reorganización de carpetas según la estructura definida para el proyecto.
 - Sincronización de la documentación de gestión durante la Iteración 1.
 
-### Completado
+---
+
+## Completado
 
 - Planificación del proyecto.
 - Arquitectura aprobada.
@@ -33,29 +46,70 @@
 - Sincronización de la documentación de gestión.
 - Validación metodológica de la Fase de Documentación.
 - Aprobación formal de la Fase de Documentación por Chat 00.
+- Gestión de Git y GitHub.
+- Actualización de `VERSION.md`.
+- Actualización de `CHANGELOG.md`.
+- Preparación del Release `0.1.0`.
+- Publicación del Release `0.1.0`.
+- Publicación del tag `v0.1.0`.
 
-### Estado de publicación
+---
 
-- La versión 0.1.0 está implementada, probada y documentada.
-- La versión 0.1.0 está lista para completar el proceso de Release y publicación.
-- La publicación formal todavía está pendiente.
+## Estado de publicación
 
-### Pendiente
+La versión `0.1.0`:
 
-- Preparar el Release 0.1.0.
-- Publicar la versión 0.1.0.
-- Realizar la validación final posterior a Git y GitHub.
-- Obtener la autorización de Chat 00 para cerrar formalmente la Iteración 1.
+- Está implementada.
+- Está probada.
+- Está documentada.
+- Está versionada.
+- Está publicada.
+- Tiene publicado el tag `v0.1.0`.
+- Tiene publicado el Release `0.1.0`.
+
+El Release `0.1.0` figura como `Latest`, de acuerdo con la validación reportada por el Chat 05 – Git y GitHub.
+
+---
+
+## Estado metodológico
+
+La Fase de Documentación fue aprobada formalmente por el Chat 00.
+
+La Fase de Git y GitHub fue completada por el Chat 05.
+
+Las actividades correspondientes a la publicación de la versión `0.1.0` se encuentran completadas.
+
+La **Iteración 1 permanece abierta únicamente para la validación final y el cierre formal por parte del Chat 00**.
 
 ---
 
 ## Registro de Versiones
 
-| **Versión** | **Fecha de publicación** | **Estado**             | **Descripción**                                                                                                  |
-| ----------- | ------------------------ | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 0.1.0       | Pendiente                | Lista para publicación | MVP funcional, pruebas y documentación de la Iteración 1 completados. Pendiente de Release y publicación formal. |
-| 0.2.0       | -                        | Planificada            | Mejoras visuales, refactorización, optimización responsive y mejora de la organización del proyecto.             |
+| Versión | Fecha de publicación | Estado      | Descripción                                                                                                                      |
+| ------- | -------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1.0   | 08-08-2026           | Publicada   | MVP funcional, pruebas, documentación, versionado y Release de la Iteración 1 completados. Release `v0.1.0` publicado en GitHub. |
+| 0.2.0   | -                    | Planificada | Mejoras visuales, refactorización, optimización responsive y mejora de la organización del proyecto.                             |
 
 ---
 
-**Última actualización:** 08-08-2026
+# Estado del Documento
+
+| Campo            | Valor                                                                |
+| ---------------- | -------------------------------------------------------------------- |
+| Estado           | Vigente                                                              |
+| Responsable      | Chat 00 – Gestión del Proyecto                                       |
+| Próxima revisión | Al preparar una nueva versión o al cerrar formalmente la Iteración 1 |
+| Versión          | 0.1.1                                                                |
+
+---
+
+# Historial de Cambios del Documento
+
+| Versión | Fecha      | Descripción                                                                                                                                                                                                            |
+| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1.0   | 08-08-2026 | Creación del historial de cambios correspondiente a la versión 0.1.0.                                                                                                                                                  |
+| 0.1.1   | 08-08-2026 | Sincronización posterior al cierre de las actividades de Git y GitHub. Se confirma la publicación del Release `0.1.0` y del tag `v0.1.0`. Se deja pendiente únicamente el cierre formal de la Iteración 1 por Chat 00. |
+
+---
+
+© 2026 - PaginaWebTest
