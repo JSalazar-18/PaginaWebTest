@@ -1,6 +1,12 @@
 ﻿# CHANGELOG - Historial de Cambios
 
-## [0.1.0] - Pendiente de publicación
+Este documento registra los cambios relevantes del proyecto PaginaWebTest por versión.
+
+---
+
+## [0.1.0] - 2026-08-08
+
+Primera versión funcional publicada correspondiente a la **Iteración 1 – MVP y Base Metodológica**.
 
 ### Añadido
 
@@ -14,48 +20,66 @@
 - Botón "Modo Azul".
 - Diseño responsive básico.
 - Compatibilidad oficial con Google Chrome y Microsoft Edge.
+- Requisitos funcionales y no funcionales documentados.
+- Arquitectura documentada.
+- Decisiones técnicas documentadas.
+- Plan de pruebas documentado.
+- Resultados de pruebas documentados.
+- Documentación de gestión del proyecto.
+- Configuración del repositorio Git.
+- Integración con GitHub.
+- Tag `v0.1.0`.
+- Release `0.1.0`.
 
 ### Cambiado
 
 - Alineación del proyecto con el Manual Metodológico del Proyecto Profesional v3.0.0.
-- Reorganización de carpetas según la estructura definida para el proyecto.
-- Sincronización de la documentación de gestión durante la Iteración 1.
-
-### Completado
-
-- Planificación del proyecto.
-- Arquitectura aprobada.
-- Desarrollo de la Iteración 1.
-- Pruebas funcionales aprobadas.
-- Verificación de requisitos no funcionales.
-- Verificación de rendimiento mediante Google Lighthouse.
-- Auditoría documental.
+- Reorganización de carpetas según la estructura estándar del proyecto.
 - Sincronización de la documentación de gestión.
-- Validación metodológica de la Fase de Documentación.
-- Aprobación formal de la Fase de Documentación por Chat 00.
+- Actualización del estado del proyecto.
+- Actualización de los documentos de requisitos, arquitectura, pruebas y versionado.
+- Preparación del proyecto para la publicación de la versión `0.1.0`.
 
-### Estado de publicación
+### Corregido
 
-- La versión 0.1.0 está implementada, probada y documentada.
-- La versión 0.1.0 está lista para completar el proceso de Release y publicación.
-- La publicación formal todavía está pendiente.
+- Inconsistencias documentales identificadas durante la revisión del proyecto.
+- Ajustes necesarios para mantener la trazabilidad entre requisitos, arquitectura, desarrollo y pruebas.
+- Correcciones necesarias para la publicación de la versión `0.1.0`.
 
-### Pendiente
+### Pruebas
 
-- Preparar el Release 0.1.0.
-- Publicar la versión 0.1.0.
-- Realizar la validación final posterior a Git y GitHub.
-- Obtener la autorización de Chat 00 para cerrar formalmente la Iteración 1.
+La versión `0.1.0` fue sometida a las pruebas definidas para la Iteración 1.
+
+Estado:
+
+- Pruebas funcionales: aprobadas.
+- Pruebas no funcionales: aprobadas.
+- Validación de rendimiento: aprobada.
+- Incidencias críticas abiertas: 0.
+- Bloqueos: 0.
+
+### Git y GitHub
+
+La publicación de la versión `0.1.0` quedó asociada al commit:
+
+```text
+e170a64
+```
 
 ---
 
-## Registro de Versiones
+## Estado de la versión
 
-| **Versión** | **Fecha de publicación** | **Estado**             | **Descripción**                                                                                                  |
-| ----------- | ------------------------ | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| 0.1.0       | Pendiente                | Lista para publicación | MVP funcional, pruebas y documentación de la Iteración 1 completados. Pendiente de Release y publicación formal. |
-| 0.2.0       | -                        | Planificada            | Mejoras visuales, refactorización, optimización responsive y mejora de la organización del proyecto.             |
+La versión `0.1.0` se encuentra:
+
+- Implementada.
+- Probada.
+- Documentada.
+- Versionada.
+- Publicada en GitHub.
+
+La Iteración 1 correspondiente a esta versión se encuentra cerrada.
 
 ---
 
-**Última actualización:** 08-08-2026
+© 2026 - PaginaWebTest

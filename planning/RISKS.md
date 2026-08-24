@@ -1,207 +1,70 @@
-# RISKS - Registro de Riesgos del Proyecto
+# RISKS — PaginaWebTest
 
-**Proyecto:** PaginaWebTest
-**Documento:** RISKS.md
-**Versión:** 0.1.3
-**Estado:** Vigente
-**Responsable:** Chat 00 – Gestión del Proyecto
-**Última actualización:** 08-08-2026
+## 1. Propósito
 
----
+Este documento registra los riesgos identificados durante la planificación y desarrollo de PaginaWebTest, así como las acciones realizadas para mitigarlos y su estado.
 
-# 1. Objetivo
-
-Identificar, evaluar, monitorear y gestionar los riesgos que puedan afectar el cumplimiento de los objetivos del proyecto PaginaWebTest.
-
-Este documento permite registrar de forma estructurada los riesgos detectados durante todo el ciclo de vida del proyecto, estableciendo acciones preventivas y correctivas para minimizar su impacto.
+El registro se mantiene alineado con el estado real de la Iteración 1.
 
 ---
 
-# 2. Estrategia de Gestión de Riesgos
+## 2. Estado general de riesgos
 
-La gestión de riesgos seguirá el siguiente ciclo:
+**Iteración:** Iteración 1
+**Estado:** Cerrada
 
-1. Identificación.
-2. Evaluación.
-3. Priorización.
-4. Plan de respuesta.
-5. Seguimiento.
-6. Cierre.
-
-Todo riesgo nuevo deberá registrarse antes de iniciar una nueva iteración.
-
-Un riesgo podrá considerarse cerrado cuando la acción de mitigación o resolución haya sido ejecutada y validada por el Chat 00.
+Al cierre de la Iteración 1 no existen riesgos pendientes que impidan considerar completado el MVP.
 
 ---
 
-# 3. Escala de Evaluación
+## 3. Registro de riesgos
 
-## Probabilidad
-
-| Valor | Descripción   |
-| ----- | ------------- |
-| Baja  | Poco probable |
-| Media | Puede ocurrir |
-| Alta  | Muy probable  |
-
----
-
-## Impacto
-
-| Valor | Descripción             |
-| ----- | ----------------------- |
-| Bajo  | Afectación mínima       |
-| Medio | Requiere ajustes        |
-| Alto  | Compromete la iteración |
+| ID      | Riesgo                                                | Probabilidad | Impacto | Nivel | Mitigación                                                                             | Responsable | Estado     |
+| ------- | ----------------------------------------------------- | ------------ | ------- | ----- | -------------------------------------------------------------------------------------- | ----------- | ---------- |
+| RSK-001 | Ambigüedad en los requisitos iniciales                | Media        | Medio   | Medio | Definir y documentar los requisitos antes del desarrollo                               | Chat 00     | ✅ Cerrado |
+| RSK-002 | Desalineación entre requisitos y arquitectura         | Baja         | Alto    | Medio | Revisar la arquitectura contra los requisitos antes del desarrollo                     | Chat 01     | ✅ Cerrado |
+| RSK-003 | Errores durante la implementación del MVP             | Media        | Medio   | Medio | Implementación incremental y ejecución de pruebas                                      | Chat 02     | ✅ Cerrado |
+| RSK-004 | Fallos funcionales no detectados                      | Media        | Alto    | Alto  | Elaborar y ejecutar el plan de pruebas                                                 | Chat 03     | ✅ Cerrado |
+| RSK-005 | Documentación desactualizada                          | Media        | Medio   | Medio | Revisar y sincronizar la documentación antes del cierre                                | Chat 04     | ✅ Cerrado |
+| RSK-006 | Problemas durante el control de versiones             | Baja         | Alto    | Medio | Validar el estado de Git y GitHub antes de publicar                                    | Chat 05     | ✅ Cerrado |
+| RSK-007 | Pérdida de trazabilidad entre fases                   | Baja         | Alto    | Medio | Mantener los documentos de gestión y el flujo de trabajo actualizados                  | Chat 00     | ✅ Cerrado |
+| RSK-008 | Error o inconsistencia en el versionado de la entrega | Media        | Medio   | Medio | Validar VERSION.md, CHANGELOG.md, tag y estado del repositorio antes de la publicación | Chat 05     | ✅ Cerrado |
 
 ---
 
-## Nivel de Riesgo
+## 4. Riesgos de la Iteración 1
 
-| Probabilidad | Impacto | Nivel   |
-| ------------ | ------- | ------- |
-| Baja         | Bajo    | Bajo    |
-| Baja         | Medio   | Bajo    |
-| Baja         | Alto    | Medio   |
-| Media        | Bajo    | Bajo    |
-| Media        | Medio   | Medio   |
-| Media        | Alto    | Alto    |
-| Alta         | Bajo    | Medio   |
-| Alta         | Medio   | Alto    |
-| Alta         | Alto    | Crítico |
+### RSK-001 — Ambigüedad en los requisitos
+
+**Estado:** Cerrado
+
+Los requisitos del MVP fueron definidos y documentados antes de finalizar la implementación.
 
 ---
 
-# 4. Registro de Riesgos
+### RSK-002 — Desalineación entre requisitos y arquitectura
 
-| ID      | Riesgo                                           | Prob. | Impacto | Nivel | Estrategia                                                                                            | Responsable | Estado       |
-| ------- | ------------------------------------------------ | ----- | ------- | ----- | ----------------------------------------------------------------------------------------------------- | ----------- | ------------ |
-| RSK-001 | Cambios de alcance durante el desarrollo         | Media | Alto    | Alto  | Validar cambios mediante Chat 00                                                                      | Chat 00     | ✅ Mitigado  |
-| RSK-002 | Retraso en la sincronización de la documentación | Media | Medio   | Medio | Completar la sincronización y validar la documentación antes del cambio de fase                       | Chat 00     | ✅ Cerrado   |
-| RSK-003 | Inconsistencia entre documentos de gestión       | Media | Alto    | Alto  | Realizar revisión cruzada y confirmar coherencia documental antes de aprobar la Fase de Documentación | Chat 00     | ✅ Cerrado   |
-| RSK-004 | Cambios metodológicos durante el proyecto        | Baja  | Alto    | Medio | Mantener alineación con Manual y Plantilla                                                            | Chat 00     | ✅ Mitigado  |
-| RSK-005 | Errores en la arquitectura inicial               | Baja  | Alto    | Medio | Revisión técnica por Chat 01                                                                          | Chat 01     | ✅ Cerrado   |
-| RSK-006 | Defectos durante el desarrollo                   | Media | Medio   | Medio | Revisiones de código                                                                                  | Chat 02     | ✅ Cerrado   |
-| RSK-007 | Cobertura insuficiente de pruebas                | Media | Alto    | Alto  | Ejecutar TEST_PLAN completo y verificar los resultados                                                | Chat 03     | ✅ Cerrado   |
-| RSK-008 | Versionado incorrecto                            | Baja  | Medio   | Bajo  | Validación de VERSION.md y CHANGELOG.md antes de la publicación                                       | Chat 05     | ⏳ Pendiente |
+**Estado:** Cerrado
+
+La arquitectura fue definida de acuerdo con los requisitos establecidos para el MVP.
 
 ---
 
-# 5. Riesgos por Iteración
+### RSK-003 — Errores durante la implementación
 
-## Iteración 1
+**Estado:** Cerrado
 
-### Riesgos mitigados
-
-- Cambios de alcance durante el desarrollo.
-- Cambios metodológicos.
-- Retrasos en documentación.
-
-### Riesgos cerrados
-
-- Inconsistencia entre documentos de gestión.
-- Errores en la arquitectura inicial.
-- Defectos durante el desarrollo.
-- Cobertura insuficiente de pruebas.
-
-### Riesgos pendientes
-
-- Versionado final de la versión 0.1.0.
-
-El riesgo de versionado permanecerá bajo seguimiento durante la Fase de Git y GitHub.
-
-Los riesgos detallados y su estado oficial se administran en este documento.
+La implementación del MVP fue completada y validada mediante las pruebas documentadas.
 
 ---
 
-## Iteración 2
+### RSK-004 — Fallos funcionales no detectados
 
-Pendiente.
+**Estado:** Cerrado
 
----
+Las pruebas de la Iteración 1 fueron ejecutadas y sus resultados quedaron registrados en:
 
-## Iteración 3
-
-Pendiente.
-
----
-
-## Iteración 4
-
-Pendiente.
-
----
-
-# 6. Riesgos Cerrados
-
-| ID      | Riesgo                                           | Fecha      | Observación                                                                 |
-| ------- | ------------------------------------------------ | ---------- | --------------------------------------------------------------------------- |
-| RSK-002 | Retraso en la sincronización de la documentación | 08-08-2026 | Documentación de gestión sincronizada y validada por Chat 00.               |
-| RSK-003 | Inconsistencia entre documentos de gestión       | 08-08-2026 | Revisión cruzada completada y coherencia documental confirmada por Chat 00. |
-| RSK-005 | Errores en la arquitectura                       | 07-08-2026 | Arquitectura aprobada por Chat 00.                                          |
-| RSK-006 | Defectos durante el desarrollo                   | 07-08-2026 | Desarrollo finalizado sin incidencias.                                      |
-| RSK-007 | Cobertura insuficiente de pruebas                | 07-08-2026 | TEST_PLAN ejecutado; requisitos funcionales y no funcionales aprobados.     |
-
----
-
-# 7. Seguimiento
-
-| Fecha      | Riesgo  | Acción                                                                      | Responsable |
-| ---------- | ------- | --------------------------------------------------------------------------- | ----------- |
-| 07-08-2026 | RSK-001 | Mitigado tras la aprobación del desarrollo.                                 | Chat 00     |
-| 07-08-2026 | RSK-004 | Mitigado al mantenerse la metodología sin cambios.                          | Chat 00     |
-| 07-08-2026 | RSK-005 | Riesgo cerrado tras la aprobación de Arquitectura.                          | Chat 01     |
-| 07-08-2026 | RSK-006 | Riesgo cerrado tras finalizar Desarrollo.                                   | Chat 02     |
-| 07-08-2026 | RSK-007 | Riesgo cerrado tras completar y aprobar las pruebas de la Iteración 1.      | Chat 03     |
-| 08-08-2026 | RSK-002 | Sincronización documental completada y validada por Chat 00.                | Chat 00     |
-| 08-08-2026 | RSK-003 | Revisión cruzada completada y coherencia documental confirmada por Chat 00. | Chat 00     |
-| 08-08-2026 | RSK-008 | Riesgo permanece pendiente durante la Fase de Git y GitHub.                 | Chat 05     |
-
----
-
-# 8. Indicadores
-
-| Indicador                 | Valor |
-| ------------------------- | ----: |
-| Riesgos registrados       |     8 |
-| Riesgos cerrados          |     5 |
-| Riesgos mitigados         |     2 |
-| Riesgos pendientes        |     1 |
-| Riesgos en resolución     |     0 |
-| Riesgos críticos abiertos |     0 |
-
----
-
-# 9. Relación con otros Documentos
-
-Este documento mantiene trazabilidad con:
-
-- requirements/REQUIREMENTS.md
-- planning/ROADMAP.md
-- planning/ITERATIONS.md
-- documentation/PROJECT_STATUS.md
-- documentation/TODO.md
-- testing/TEST_PLAN.md
-- testing/TEST_RESULTS.md
-
----
-
-# 10. Estado del Documento
-
-| Campo            | Valor                                                                            |
-| ---------------- | -------------------------------------------------------------------------------- |
-| Estado           | Vigente                                                                          |
-| Responsable      | Chat 00 – Gestión del Proyecto                                                   |
-| Próxima revisión | Al finalizar la Fase de Git y GitHub o ante la identificación de un nuevo riesgo |
-| Versión          | 0.1.3                                                                            |
-
----
-
-# 11. Historial de Cambios
-
-| Versión | Fecha      | Descripción                                                                                                                                                                                                                                            |
-| ------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0.1.0   | 05-08-2026 | Creación inicial del registro de riesgos.                                                                                                                                                                                                              |
-| 0.1.1   | 07-08-2026 | Sincronización del registro de riesgos con el estado real de la Iteración 1. Se cierra RSK-007 tras la aprobación de las pruebas y se mantienen temporalmente RSK-002, RSK-003 y RSK-008 según el estado del proyecto.                                 |
-| 0.1.2   | 07-08-2026 | Actualización del estado de los riesgos tras la sincronización de ROADMAP.md e ITERATIONS.md. RSK-002 y RSK-003 pasan a resolución hasta completar la validación final del Chat 00. RSK-008 permanece pendiente por el versionado de la versión 0.1.0. |
-| 0.1.3   | 08-08-2026 | Cierre de RSK-002 y RSK-003 tras completar y validar la sincronización documental. RSK-008 permanece pendiente y pasa a ser el riesgo activo asociado a la Fase de Git y GitHub y al versionado de la versión 0.1.0.                                   |
+```text
+testing/TEST_PLAN.md
+testing/TEST_RESULTS.md
+```

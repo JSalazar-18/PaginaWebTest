@@ -1,199 +1,108 @@
-﻿# TEST_RESULTS - Resultados de Pruebas
+﻿# TEST RESULTS — PaginaWebTest
 
-**Proyecto:** PaginaWebTest  
-**Documento:** TEST_RESULTS.md  
-**Versión:** 0.1.2  
-**Estado:** Aprobado  
-**Responsable:** Chat 03 – Pruebas  
-**Última actualización:** 07-08-2026
+## 1. Propósito
 
----
+Este documento registra los resultados de las pruebas ejecutadas durante la Fase de Pruebas de la Iteración 1 de PaginaWebTest.
 
-# 1. Objetivo
-
-Registrar los resultados obtenidos durante la ejecución de las pruebas correspondientes a la versión **0.1.0** del proyecto **PaginaWebTest**, verificando el cumplimiento de los requisitos funcionales y no funcionales establecidos.
+Los resultados corresponden al MVP definido para la versión 0.1.0.
 
 ---
 
-# 2. Resumen Ejecutivo
+## 2. Resumen de ejecución
 
-La Fase de Pruebas fue ejecutada satisfactoriamente.
+| Indicador                  | Resultado |
+| -------------------------- | --------: |
+| Casos de prueba definidos  |         5 |
+| Casos de prueba ejecutados |         5 |
+| Casos aprobados            |         5 |
+| Casos fallidos             |         0 |
+| Incidencias abiertas       |         0 |
 
-Se verificó el cumplimiento de todos los requisitos funcionales y no funcionales definidos para la versión **0.1.0**.
-
-No se detectaron incidencias críticas, medias ni bloqueantes.
-
-La aplicación cumple los requisitos establecidos y se encuentra apta para continuar con la Fase de Documentación.
-
----
-
-# 3. Resultados por Caso de Prueba
-
-| Caso | Requisito | Resultado |
-|------|-----------|-----------|
-| TC-001 | RF-001 | ✅ Aprobado |
-| TC-002 | RF-002 | ✅ Aprobado |
-| TC-003 | RF-003 | ✅ Aprobado |
-| TC-004 | RF-004 | ✅ Aprobado |
-| TC-005 | RF-005 | ✅ Aprobado |
+**Resultado general: APROBADO**
 
 ---
 
-# 4. Resultados de Requisitos No Funcionales
+## 3. Resultados de los casos de prueba
 
-| Requisito | Estado | Evidencia |
-|-----------|--------|-----------|
-| RNF-001 Compatibilidad | ✅ Cumple | Funcionamiento verificado en Google Chrome y Microsoft Edge. |
-| RNF-002 Rendimiento | ✅ Cumple | Google Lighthouse. |
-| RNF-003 Código limpio | ✅ Cumple | Revisión técnica del código. |
-| RNF-004 Mantenibilidad | ✅ Cumple | Arquitectura validada. |
-
----
-
-# 5. Evidencias
-
-## Compatibilidad
-
-Se verificó el correcto funcionamiento de la aplicación utilizando los navegadores oficialmente soportados por el proyecto:
-
-- Google Chrome.
-- Microsoft Edge.
-
-No se identificaron diferencias funcionales entre ambos navegadores.
+| ID     | Caso de prueba               | Resultado                                                                         | Estado      |
+| ------ | ---------------------------- | --------------------------------------------------------------------------------- | ----------- |
+| TC-001 | Carga de la página           | La página se carga correctamente y muestra los elementos principales              | ✅ Aprobado |
+| TC-002 | Estado inicial del indicador | El indicador inicia en color gris                                                 | ✅ Aprobado |
+| TC-003 | Modo Verde                   | El indicador cambia a color verde al presionar el botón correspondiente           | ✅ Aprobado |
+| TC-004 | Modo Azul                    | El indicador cambia a color azul al presionar el botón correspondiente            | ✅ Aprobado |
+| TC-005 | Comportamiento responsive    | La interfaz mantiene una disposición utilizable en diferentes tamaños de pantalla | ✅ Aprobado |
 
 ---
 
-## Rendimiento
+## 4. Compatibilidad
 
-La evaluación se realizó mediante **Google Lighthouse** sobre un servidor HTTP local.
+Las pruebas de compatibilidad registradas para la Iteración 1 fueron satisfactorias.
 
-### Resultados
-
-| Métrica | Resultado |
-|----------|----------:|
-| Performance Score | **100 / 100** |
-| First Contentful Paint | **0.3 s** |
-| Largest Contentful Paint | **0.3 s** |
-| Speed Index | **0.3 s** |
-| Total Blocking Time | **0 ms** |
-| Cumulative Layout Shift | **0** |
-
-Todos los valores obtenidos cumplen ampliamente el requisito RNF-002.
+| Navegador      | Resultado               | Estado      |
+| -------------- | ----------------------- | ----------- |
+| Google Chrome  | Funcionamiento correcto | ✅ Aprobado |
+| Microsoft Edge | Funcionamiento correcto | ✅ Aprobado |
 
 ---
 
-# 6. Incidencias
+## 5. Resultados de rendimiento
 
-## Resumen
+La evaluación de rendimiento fue realizada utilizando Google Lighthouse.
 
-| Severidad | Cantidad |
-|-----------|---------:|
-| Críticas | 0 |
-| Altas | 0 |
-| Medias | 0 |
-| Bajas | 0 |
+Los resultados registrados fueron:
 
----
+| Métrica                        | Resultado |
+| ------------------------------ | --------: |
+| Performance                    |   100/100 |
+| First Contentful Paint (FCP)   |     0.3 s |
+| Largest Contentful Paint (LCP) |     0.3 s |
+| Total Blocking Time (TBT)      |      0 ms |
+| Cumulative Layout Shift (CLS)  |         0 |
 
-## INC-001
+**Resultado de rendimiento registrado: APROBADO**
 
-**Descripción**
+### Nota sobre la evidencia
 
-Compatibilidad entre navegadores.
+Los valores anteriores corresponden a la ejecución de Google Lighthouse registrada durante la Fase de Pruebas de la Iteración 1.
 
-**Estado**
+El informe o artefacto original de Lighthouse no forma parte del repositorio actual.
 
-✅ Cerrada.
-
-**Resolución**
-
-Se verificó correctamente el funcionamiento de la aplicación en Google Chrome y Microsoft Edge, navegadores oficialmente soportados por el proyecto.
+Por tanto, estos valores se consideran **resultados registrados de la ejecución realizada** y no una evidencia reproducible almacenada actualmente en el proyecto.
 
 ---
 
-## INC-002
+## 6. Resultados de requisitos
 
-**Descripción**
+Los requisitos definidos para el MVP fueron cubiertos por las pruebas correspondientes.
 
-Verificación objetiva del rendimiento.
-
-**Estado**
-
-✅ Cerrada.
-
-**Resolución**
-
-Se ejecutó Google Lighthouse obteniendo:
-
-- Performance Score: 100/100.
-- FCP: 0.3 s.
-- LCP: 0.3 s.
-- Speed Index: 0.3 s.
-- Total Blocking Time: 0 ms.
-- CLS: 0.
-
-El requisito RNF-002 queda aprobado.
+| Requisito                            | Resultado   |
+| ------------------------------------ | ----------- |
+| RF-001 — Página principal            | ✅ Aprobado |
+| RF-002 — Indicador inicialmente gris | ✅ Aprobado |
+| RF-003 — Modo Verde                  | ✅ Aprobado |
+| RF-004 — Modo Azul                   | ✅ Aprobado |
+| RF-005 — Interfaz responsive         | ✅ Aprobado |
 
 ---
 
-# 7. Estadísticas
+## 7. Resultados de requisitos no funcionales
 
-| Indicador | Valor |
-|------------|------:|
-| Casos ejecutados | 5 |
-| Casos aprobados | 5 |
-| Casos fallidos | 0 |
-| Cobertura funcional | 100 % |
-| Requisitos no funcionales aprobados | 4 / 4 |
-| Incidencias abiertas | 0 |
-| Incidencias cerradas | 2 |
+| Requisito                                          | Resultado   |
+| -------------------------------------------------- | ----------- |
+| RNF-001 — HTML5, CSS3 y JavaScript Vanilla         | ✅ Aprobado |
+| RNF-002 — Compatibilidad con navegadores definidos | ✅ Aprobado |
+| RNF-003 — Rendimiento                              | ✅ Aprobado |
+| RNF-004 — Registro documental de las pruebas       | ✅ Aprobado |
 
----
-
-# 8. Veredicto Final
-
-## Resultado de la Fase de Pruebas
-
-**✅ APROBADA**
-
-Se verificó satisfactoriamente:
-
-- Todos los requisitos funcionales.
-- Todos los requisitos no funcionales.
-- Compatibilidad con los navegadores oficialmente soportados.
-- Rendimiento conforme al requisito RNF-002.
-- Cumplimiento de la arquitectura aprobada.
-- Cumplimiento de las decisiones arquitectónicas (ADR).
-
-No existen incidencias pendientes.
+**Resultado: 4/4 requisitos no funcionales aprobados.**
 
 ---
 
-# 9. Recomendación
+## 8. Incidencias
 
-Se recomienda al **Chat 00 – Gestión del Proyecto**:
+Durante la ejecución registrada de las pruebas:
 
-- Aprobar oficialmente la Fase de Pruebas.
-- Actualizar la documentación de gestión.
-- Autorizar el inicio de la Fase de Documentación mediante el Chat 04.
-
----
-
-# 10. Estado del Documento
-
-| Campo | Valor |
-|--------|-------|
-| Estado | Aprobado |
-| Responsable | Chat 03 – Pruebas |
-| Próxima revisión | Ante cambios funcionales o arquitectónicos |
-| Versión | 0.1.2 |
-
----
-
-# 11. Historial de Cambios
-
-| Versión | Fecha | Descripción |
-|----------|-------|-------------|
-| 0.1.0 | 07-08-2026 | Creación inicial del documento con los resultados de la Iteración 1. |
-| 0.1.1 | 07-08-2026 | Actualización del requisito RNF-001 conforme al alcance aprobado del proyecto. Compatibilidad oficial con Google Chrome y Microsoft Edge. |
-| 0.1.2 | 07-08-2026 | Se incorpora la evidencia objetiva obtenida mediante Google Lighthouse. Se aprueba RNF-002 y se cierran todas las incidencias. La Fase de Pruebas queda completamente finalizada. |
+```text
+Incidencias detectadas: 0
+Incidencias abiertas:   0
+```

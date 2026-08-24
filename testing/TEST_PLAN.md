@@ -1,180 +1,203 @@
-﻿# TEST_PLAN - Plan de Pruebas
+﻿# TEST PLAN — PaginaWebTest
 
-**Proyecto:** PaginaWebTest  
-**Documento:** TEST_PLAN.md  
-**Versión:** 0.1.2  
-**Estado:** Ejecutado y Aprobado  
-**Responsable:** Chat 03 – Pruebas  
-**Última actualización:** 07-08-2026
+## 1. Propósito
 
----
+Este documento define el plan de pruebas para validar el MVP de PaginaWebTest.
 
-# 1. Objetivo
-
-Verificar el cumplimiento de los requisitos funcionales y no funcionales definidos para la versión **0.1.0** del proyecto **PaginaWebTest**, garantizando que la implementación cumple con los requisitos aprobados, la arquitectura definida y las decisiones arquitectónicas (ADR).
+El objetivo es verificar que las funcionalidades implementadas cumplen los requisitos definidos y que el sistema presenta un comportamiento correcto en las condiciones previstas para la Iteración 1.
 
 ---
 
-# 2. Alcance
+## 2. Alcance
 
-Las pruebas cubren la totalidad de los requisitos aprobados para la Iteración 1.
+Las pruebas de la Iteración 1 cubren:
 
-## Requisitos Funcionales
+- Carga de la página principal.
+- Estado inicial del indicador circular.
+- Funcionamiento del botón Modo Verde.
+- Funcionamiento del botón Modo Azul.
+- Comportamiento visual de la interfaz.
+- Compatibilidad básica con navegadores.
+- Comportamiento responsive.
+- Rendimiento básico de la página.
+- Revisión documental asociada al cierre de la Iteración 1.
 
-- RF-001 Página Principal.
-- RF-002 Indicador LED.
-- RF-003 Modo Verde.
-- RF-004 Modo Azul.
-- RF-005 Interfaz Responsive.
-
-## Requisitos No Funcionales
-
-- RNF-001 Compatibilidad.
-- RNF-002 Rendimiento.
-- RNF-003 Código limpio.
-- RNF-004 Mantenibilidad.
+No forman parte del alcance de esta fase funcionalidades futuras no incluidas en el MVP.
 
 ---
 
-# 3. Estrategia de Pruebas
+## 3. Requisitos relacionados
 
-Se ejecutaron los siguientes tipos de pruebas:
+Las pruebas se relacionan principalmente con los requisitos funcionales y no funcionales definidos para el MVP.
 
-- Pruebas funcionales.
-- Pruebas visuales.
-- Pruebas de compatibilidad.
-- Pruebas de rendimiento.
-- Verificación documental.
-
-No aplican pruebas de integración debido a que la versión 0.1.0 no incorpora backend, base de datos, APIs ni componentes externos.
-
----
-
-# 4. Entorno de Pruebas
-
-| Elemento | Valor |
-|----------|-------|
-| Sistema Operativo | Windows |
-| Navegadores soportados | Google Chrome y Microsoft Edge |
-| Servidor local | Python HTTP Server (`http://localhost:8000`) |
-| Tecnologías | HTML5, CSS3 y JavaScript Vanilla |
-| Herramienta de rendimiento | Google Lighthouse |
+| Requisito | Descripción                                                          | Validación          |
+| --------- | -------------------------------------------------------------------- | ------------------- |
+| RF-001    | La página principal debe cargarse correctamente                      | Prueba funcional    |
+| RF-002    | El indicador debe iniciar en color gris                              | Prueba funcional    |
+| RF-003    | El botón Modo Verde debe cambiar el indicador a verde                | Prueba funcional    |
+| RF-004    | El botón Modo Azul debe cambiar el indicador a azul                  | Prueba funcional    |
+| RF-005    | La interfaz debe presentar comportamiento responsive básico          | Prueba visual       |
+| RNF-001   | La interfaz debe utilizar HTML5, CSS3 y JavaScript Vanilla           | Revisión técnica    |
+| RNF-002   | La página debe funcionar en los navegadores definidos para la prueba | Compatibilidad      |
+| RNF-003   | La interfaz debe presentar un rendimiento adecuado para el MVP       | Rendimiento         |
+| RNF-004   | La documentación de pruebas debe registrar los resultados obtenidos  | Revisión documental |
 
 ---
 
-# 5. Casos de Prueba
+## 4. Entorno de pruebas
 
-| Caso | Requisito | Descripción | Resultado |
-|------|-----------|-------------|-----------|
-| TC-001 | RF-001 | Mostrar correctamente la página principal. | ✅ Aprobado |
-| TC-002 | RF-002 | El indicador LED inicia en color gris. | ✅ Aprobado |
-| TC-003 | RF-003 | El botón **Modo Verde** cambia correctamente el indicador a color verde. | ✅ Aprobado |
-| TC-004 | RF-004 | El botón **Modo Azul** cambia correctamente el indicador a color azul. | ✅ Aprobado |
-| TC-005 | RF-005 | La interfaz responde correctamente en diferentes resoluciones. | ✅ Aprobado |
+### Navegadores
 
----
+Las pruebas se realizan principalmente utilizando:
 
-# 6. Verificación de Requisitos No Funcionales
+- Google Chrome.
+- Microsoft Edge.
 
-| Requisito | Resultado | Evidencia |
-|-----------|-----------|-----------|
-| RNF-001 Compatibilidad | ✅ Cumple | Funcionamiento verificado en Google Chrome y Microsoft Edge. |
-| RNF-002 Rendimiento | ✅ Cumple | Medición realizada con Google Lighthouse. |
-| RNF-003 Código limpio | ✅ Cumple | Código organizado y separado por responsabilidades. |
-| RNF-004 Mantenibilidad | ✅ Cumple | Arquitectura respetada (HTML, CSS y JavaScript separados). |
+### Ejecución
+
+La aplicación se ejecuta mediante un servidor HTTP local.
+
+### Tecnologías
+
+- HTML5.
+- CSS3.
+- JavaScript Vanilla.
 
 ---
 
-# 7. Evidencia de Rendimiento
+## 5. Casos de prueba
 
-La evaluación de rendimiento fue realizada mediante **Google Lighthouse** ejecutando la aplicación desde un servidor HTTP local.
+### TC-001 — Carga de la página
 
-## Resultados obtenidos
+**Objetivo:** Verificar que la página principal se cargue correctamente.
 
-| Métrica | Resultado |
-|----------|----------:|
-| Performance Score | **100 / 100** |
-| First Contentful Paint (FCP) | **0.3 s** |
-| Largest Contentful Paint (LCP) | **0.3 s** |
-| Speed Index | **0.3 s** |
-| Total Blocking Time | **0 ms** |
-| Cumulative Layout Shift (CLS) | **0** |
+**Procedimiento:**
 
-### Resultado
+1. Iniciar el servidor local.
+2. Abrir la dirección de la aplicación.
+3. Verificar que la interfaz se muestre correctamente.
 
-El requisito **RNF-002** queda **aprobado**, ya que el tiempo de carga medido es significativamente inferior al límite establecido de **3 segundos**.
+**Resultado esperado:**
 
----
-
-# 8. Criterios de Aprobación
-
-La Fase de Pruebas será considerada aprobada cuando:
-
-- Todos los requisitos funcionales estén aprobados.
-- Todos los requisitos no funcionales estén aprobados.
-- No existan incidencias críticas ni bloqueantes.
-- La documentación permanezca sincronizada.
-- Existan evidencias objetivas que respalden los resultados obtenidos.
+- La página se carga sin errores visibles.
+- El indicador circular es visible.
+- Los botones son visibles.
 
 ---
 
-# 9. Resultado General
+### TC-002 — Estado inicial del indicador
 
-## Requisitos Funcionales
+**Objetivo:** Verificar el estado inicial del indicador.
 
-| Requisito | Estado |
-|-----------|--------|
-| RF-001 | ✅ |
-| RF-002 | ✅ |
-| RF-003 | ✅ |
-| RF-004 | ✅ |
-| RF-005 | ✅ |
+**Procedimiento:**
 
-## Requisitos No Funcionales
+1. Cargar la página.
+2. No presionar ningún botón.
+3. Observar el indicador circular.
 
-| Requisito | Estado |
-|-----------|--------|
-| RNF-001 | ✅ |
-| RNF-002 | ✅ |
-| RNF-003 | ✅ |
-| RNF-004 | ✅ |
+**Resultado esperado:**
+
+El indicador debe iniciar en color gris.
 
 ---
 
-# 10. Conclusión
+### TC-003 — Modo Verde
 
-La totalidad de los requisitos definidos para la versión **0.1.0** fueron verificados satisfactoriamente.
+**Objetivo:** Verificar el funcionamiento del botón Modo Verde.
 
-No existen incidencias críticas, medias ni bloqueantes.
+**Procedimiento:**
 
-La aplicación:
+1. Cargar la página.
+2. Presionar el botón Modo Verde.
+3. Observar el indicador circular.
 
-- cumple los requisitos funcionales;
-- cumple los requisitos no funcionales;
-- respeta la arquitectura aprobada;
-- respeta las decisiones arquitectónicas (ADR);
-- mantiene la separación entre HTML, CSS y JavaScript;
-- presenta un rendimiento excelente según Google Lighthouse.
+**Resultado esperado:**
 
-Se recomienda aprobar definitivamente la Fase de Pruebas y continuar con la Fase de Documentación.
+El indicador debe cambiar a color verde.
 
 ---
 
-# 11. Estado del Documento
+### TC-004 — Modo Azul
 
-| Campo | Valor |
-|--------|-------|
-| Estado | Ejecutado y Aprobado |
-| Responsable | Chat 03 – Pruebas |
-| Próxima revisión | Ante cambios funcionales o arquitectónicos |
-| Versión | 0.1.2 |
+**Objetivo:** Verificar el funcionamiento del botón Modo Azul.
+
+**Procedimiento:**
+
+1. Cargar la página.
+2. Presionar el botón Modo Azul.
+3. Observar el indicador circular.
+
+**Resultado esperado:**
+
+El indicador debe cambiar a color azul.
 
 ---
 
-# 12. Historial de Cambios
+### TC-005 — Comportamiento responsive
 
-| Versión | Fecha | Descripción |
-|----------|-------|-------------|
-| 0.1.0 | 07-08-2026 | Creación inicial del Plan de Pruebas para la Iteración 1. |
-| 0.1.1 | 07-08-2026 | Actualización del requisito RNF-001 conforme al alcance aprobado del proyecto. Se incorpora la compatibilidad oficial con Google Chrome y Microsoft Edge. |
-| 0.1.2 | 07-08-2026 | Se incorpora la evidencia objetiva de rendimiento obtenida mediante Google Lighthouse (Performance 100/100, FCP 0.3 s, LCP 0.3 s, Speed Index 0.3 s, Total Blocking Time 0 ms y CLS 0). Se aprueba el requisito RNF-002 y se cierra la Fase de Pruebas sin observaciones pendientes. |
+**Objetivo:** Verificar el comportamiento básico de la interfaz en diferentes tamaños de pantalla.
+
+**Procedimiento:**
+
+1. Abrir la aplicación.
+2. Modificar el tamaño de la ventana del navegador.
+3. Verificar la disposición de los elementos.
+
+**Resultado esperado:**
+
+La interfaz debe mantener una disposición utilizable y los elementos principales deben permanecer visibles.
+
+---
+
+## 6. Pruebas de compatibilidad
+
+Se verifica el comportamiento de la aplicación en:
+
+| Navegador      | Resultado esperado |
+| -------------- | ------------------ |
+| Google Chrome  | Correcto           |
+| Microsoft Edge | Correcto           |
+
+---
+
+## 7. Pruebas de rendimiento
+
+Se utiliza Google Lighthouse como herramienta de evaluación del rendimiento de la página.
+
+Las métricas registradas durante la ejecución de las pruebas incluyen:
+
+- Performance.
+- First Contentful Paint (FCP).
+- Largest Contentful Paint (LCP).
+- Total Blocking Time (TBT).
+- Cumulative Layout Shift (CLS).
+
+### Criterio de evaluación
+
+Los resultados obtenidos durante la ejecución deben registrarse en `testing/TEST_RESULTS.md`.
+
+Cuando corresponda, los resultados deben estar respaldados por evidencias objetivas disponibles.
+
+---
+
+## 8. Criterios de aprobación
+
+La Fase de Pruebas se considera aprobada cuando:
+
+- Los casos de prueba definidos han sido ejecutados.
+- Los resultados cumplen los resultados esperados.
+- No existen incidencias abiertas que impidan el cierre de la Iteración 1.
+- Los resultados quedan registrados en `TEST_RESULTS.md`.
+- Las pruebas de compatibilidad definidas han sido ejecutadas.
+- La evaluación de rendimiento ha sido realizada.
+- La documentación de pruebas queda actualizada.
+
+---
+
+## 9. Evidencia
+
+Los resultados de las pruebas se registran en:
+
+```text
+testing/TEST_RESULTS.md
+```

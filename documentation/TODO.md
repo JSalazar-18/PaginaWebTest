@@ -1,205 +1,105 @@
-# TODO - Backlog del Proyecto
+# TODO — PaginaWebTest
 
-**Proyecto:** PaginaWebTest
-**Documento:** TODO.md
-**Versión:** 0.1.5
-**Estado del Documento:** Vigente
-**Responsable:** Chat 00 – Gestión del Proyecto
-**Última actualización:** 08-08-2026
+## 1. Objetivo
 
----
+Este documento registra las tareas pendientes del proyecto y su estado de ejecución.
 
-# 1. Objetivo
-
-Mantener el registro oficial de todas las tareas del proyecto, permitiendo planificar, priorizar, asignar y controlar las actividades necesarias para completar el ciclo de vida del proyecto.
-
-Este documento constituye el **Backlog Oficial** del proyecto.
+La Iteración 1 corresponde a la implementación y cierre del MVP de PaginaWebTest.
 
 ---
 
-# 2. Estados de las Tareas
+## 2. Estado general
 
-| Estado      | Descripción              |
-| ----------- | ------------------------ |
-| Pendiente   | Aún no inicia            |
-| En progreso | Actualmente en ejecución |
-| En revisión | Pendiente de validación  |
-| Completada  | Finalizada y aprobada    |
-| Cancelada   | No será ejecutada        |
+**Iteración actual:** Iteración 1
+**Estado:** Cerrada
+**Versión:** 0.1.0
+**Tareas pendientes:** 0
 
----
-
-# 3. Prioridades
-
-| Prioridad | Significado |
-| --------- | ----------- |
-| P0        | Crítica     |
-| P1        | Alta        |
-| P2        | Media       |
-| P3        | Baja        |
+La Iteración 1 ha completado las actividades definidas para el MVP, incluyendo planificación, requisitos, arquitectura, desarrollo, pruebas, documentación, versionado y publicación.
 
 ---
 
-# 4. Backlog General
+## 3. Tareas de la Iteración 1
 
-| ID      | Tarea                                  | Prioridad | Iteración | Responsable | Estado        |
-| ------- | -------------------------------------- | --------- | --------- | ----------- | ------------- |
-| TSK-001 | Aprobar documentación de Gestión       | P0        | I1        | Chat 00     | ✅ Completada |
-| TSK-002 | Elaborar Arquitectura                  | P0        | I1        | Chat 01     | ✅ Completada |
-| TSK-003 | Registrar ADR                          | P1        | I1        | Chat 01     | ✅ Completada |
-| TSK-004 | Implementar aplicación                 | P0        | I1        | Chat 02     | ✅ Completada |
-| TSK-005 | Elaborar TEST_PLAN.md                  | P0        | I1        | Chat 03     | ✅ Completada |
-| TSK-006 | Ejecutar pruebas funcionales           | P0        | I1        | Chat 03     | ✅ Completada |
-| TSK-007 | Verificar requisitos no funcionales    | P0        | I1        | Chat 03     | ✅ Completada |
-| TSK-008 | Ejecutar Lighthouse                    | P1        | I1        | Chat 03     | ✅ Completada |
-| TSK-009 | Aprobar Fase de Pruebas                | P0        | I1        | Chat 00     | ✅ Completada |
-| TSK-010 | Revisar documentación técnica          | P0        | I1        | Chat 04     | ✅ Completada |
-| TSK-011 | Sincronizar documentación del proyecto | P0        | I1        | Chat 00     | ✅ Completada |
-| TSK-012 | Validar documentación final            | P0        | I1        | Chat 04     | ✅ Completada |
-| TSK-013 | Aprobar Fase de Documentación          | P0        | I1        | Chat 00     | ✅ Completada |
-| TSK-014 | Actualizar VERSION.md                  | P0        | I1        | Chat 05     | ⏳ Pendiente  |
-| TSK-015 | Actualizar CHANGELOG.md                | P0        | I1        | Chat 05     | ⏳ Pendiente  |
-| TSK-016 | Preparar Release 0.1.0                 | P0        | I1        | Chat 05     | ⏳ Pendiente  |
-| TSK-017 | Publicar versión 0.1.0                 | P0        | I1        | Chat 05     | ⏳ Pendiente  |
-
----
-
-# 5. Estado por Fase
-
-## Gestión
-
-- ✅ Completada
-
-## Arquitectura
-
-- ✅ Completada
-
-## Desarrollo
-
-- ✅ Completada
-
-## Pruebas
-
-- ✅ Completada
-
-## Documentación
-
-- ✅ Completada y aprobada
-
-## Git y GitHub
-
-- 🟢 Autorizada / Pendiente de ejecución
+| ID      | Tarea                                 | Estado        |
+| ------- | ------------------------------------- | ------------- |
+| TSK-001 | Definir objetivo del proyecto         | ✅ Completada |
+| TSK-002 | Definir alcance del MVP               | ✅ Completada |
+| TSK-003 | Definir requisitos funcionales        | ✅ Completada |
+| TSK-004 | Definir requisitos no funcionales     | ✅ Completada |
+| TSK-005 | Diseñar arquitectura                  | ✅ Completada |
+| TSK-006 | Registrar decisiones arquitectónicas  | ✅ Completada |
+| TSK-007 | Preparar estructura del proyecto      | ✅ Completada |
+| TSK-008 | Implementar estructura HTML           | ✅ Completada |
+| TSK-009 | Implementar estilos CSS               | ✅ Completada |
+| TSK-010 | Implementar comportamiento JavaScript | ✅ Completada |
+| TSK-011 | Preparar plan de pruebas              | ✅ Completada |
+| TSK-012 | Ejecutar y registrar pruebas          | ✅ Completada |
+| TSK-013 | Revisar documentación del proyecto    | ✅ Completada |
+| TSK-014 | Actualizar VERSION.md                 | ✅ Completada |
+| TSK-015 | Actualizar CHANGELOG.md               | ✅ Completada |
+| TSK-016 | Preparar Release 0.1.0                | ✅ Completada |
+| TSK-017 | Publicar versión 0.1.0                | ✅ Completada |
 
 ---
 
-# 6. Estado por Iteración
+## 4. Estado por área
 
-## Iteración 1
-
-### Completado
-
-- Gestión.
-- Arquitectura.
-- Desarrollo.
-- Pruebas.
-- Auditoría documental.
-- Sincronización de los documentos de gestión.
-- Validación metodológica de la documentación.
-- Aprobación formal de la Fase de Documentación.
-
-### En progreso
-
-Actualmente no existen tareas en progreso en el backlog de Chat 00.
-
-### Pendiente
-
-- Actualización de VERSION.md.
-- Actualización de CHANGELOG.md.
-- Preparación del Release 0.1.0.
-- Publicación de la versión 0.1.0.
-- Cierre formal de la Iteración 1.
-
-Las tareas pendientes corresponden a la Fase de Git y GitHub y serán gestionadas por el Chat 05.
+| Área          | Estado        |
+| ------------- | ------------- |
+| Planificación | ✅ Completada |
+| Requisitos    | ✅ Completada |
+| Arquitectura  | ✅ Completada |
+| Desarrollo    | ✅ Completada |
+| Pruebas       | ✅ Completada |
+| Documentación | ✅ Completada |
+| Git y GitHub  | ✅ Completada |
+| Versionado    | ✅ Completada |
+| Publicación   | ✅ Completada |
 
 ---
 
-## Iteración 2
-
-Planificada.
-
----
-
-## Iteración 3
-
-Planificada.
-
----
-
-## Iteración 4
-
-Planificada.
-
----
-
-# 7. Dependencias
-
-| Documento         | Relación                   |
-| ----------------- | -------------------------- |
-| REQUIREMENTS.md   | Base de requisitos         |
-| ROADMAP.md        | Plan estratégico           |
-| ITERATIONS.md     | Plan de iteraciones        |
-| RISKS.md          | Gestión de riesgos         |
-| PROJECT_STATUS.md | Estado oficial             |
-| ARCHITECTURE.md   | Arquitectura técnica       |
-| DECISIONS.md      | Decisiones arquitectónicas |
-| TEST_PLAN.md      | Plan de pruebas            |
-| TEST_RESULTS.md   | Resultados de pruebas      |
-
----
-
-# 8. Indicadores
+## 5. Indicadores
 
 | Indicador          | Valor |
 | ------------------ | ----: |
 | Tareas registradas |    17 |
-| Tareas completadas |    13 |
+| Tareas completadas |    17 |
 | Tareas en progreso |     0 |
-| Tareas pendientes  |     4 |
+| Tareas pendientes  |     0 |
 | Tareas bloqueadas  |     0 |
 
 ---
 
-# 9. Próximas Acciones
+## 6. Pendientes
 
-Las próximas actividades corresponden a la Fase de Git y GitHub:
+No existen tareas pendientes correspondientes a la Iteración 1.
 
-1. Actualizar VERSION.md.
-2. Actualizar CHANGELOG.md.
-3. Preparar el Release 0.1.0.
-4. Publicar la versión 0.1.0.
-5. Realizar la validación final posterior a Git y GitHub.
-6. Cerrar formalmente la Iteración 1 mediante Chat 00.
+La Iteración 1 queda cerrada con la versión 0.1.0 publicada.
 
 ---
 
-# 10. Estado del Documento
+## 7. Criterio de cierre
 
-| Campo            | Valor                                                       |
-| ---------------- | ----------------------------------------------------------- |
-| Estado           | Vigente                                                     |
-| Responsable      | Chat 00 – Gestión del Proyecto                              |
-| Próxima revisión | Al finalizar la Fase de Git y GitHub o ante una nueva tarea |
-| Versión          | 0.1.5                                                       |
+La Iteración 1 se considera cerrada porque:
+
+- El MVP está implementado.
+- Los requisitos definidos para la Iteración 1 están cubiertos.
+- La arquitectura está documentada.
+- Las pruebas están planificadas y registradas.
+- La documentación de gestión está actualizada.
+- `VERSION.md` está actualizado.
+- `CHANGELOG.md` está actualizado.
+- Existe el tag `v0.1.0`.
+- La versión 0.1.0 está publicada.
+- No existen tareas pendientes de la Iteración 1.
 
 ---
 
-# 11. Historial de Cambios
+## 8. Estado final
 
-| Versión | Fecha      | Descripción                                                                                                                                                                                                                                                |
-| ------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0.1.0   | 05-08-2026 | Creación inicial del backlog del proyecto.                                                                                                                                                                                                                 |
-| 0.1.1   | 07-08-2026 | Actualización tras la aprobación de Arquitectura y la finalización del Desarrollo.                                                                                                                                                                         |
-| 0.1.2   | 07-08-2026 | Actualización tras la aprobación completa de la Fase de Pruebas. Se completan las tareas asociadas a Gestión, Arquitectura, Desarrollo y Pruebas.                                                                                                          |
-| 0.1.3   | 07-08-2026 | Sincronización del backlog con la auditoría documental de Chat 04. Se completan la revisión y validación documental y se mantiene pendiente la sincronización final de los documentos de gestión y la aprobación metodológica de la Fase de Documentación. |
-| 0.1.4   | 07-08-2026 | Actualización del backlog durante la sincronización final de los documentos de gestión. Se mantiene TSK-011 en progreso y TSK-013 pendiente de aprobación metodológica.                                                                                    |
-| 0.1.5   | 08-08-2026 | Cierre de la sincronización documental y aprobación de la Fase de Documentación por Chat 00. Se completan TSK-011, TSK-012 y TSK-013. Se autoriza la Fase de Git y GitHub y permanecen pendientes TSK-014 a TSK-017, correspondientes a Chat 05.           |
+**Iteración 1 — CERRADA**
+
+**Versión 0.1.0 — PUBLICADA**
+
+**Tareas pendientes — 0**
